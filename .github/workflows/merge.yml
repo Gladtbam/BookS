@@ -22,6 +22,7 @@ jobs:
           sed -i 's/\]//g' ALL.json
           sed -i '1i \[' ALL.json
           sed -i '$a \]' ALL.json
+          sed -i 's/}{/},\n{/g' ALL.json
           mv -f ALL.json ../
       - name: Commit files
         run: |
