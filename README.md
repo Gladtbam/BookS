@@ -18,3 +18,5 @@
     https://github.com/Gladtbam/BookS/raw/main/ReplaceRule.json
     https://cdn.jsdelivr.net/gh/Gladtbam/BookS/ReplaceRule.json
 ```
+
+***如果jsdelivr未刷新缓存，[点此刷新](https://purge.jsdelivr.net/gh/Gladtbam/BookS/ALL.json)***  
