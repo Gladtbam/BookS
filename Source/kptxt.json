@@ -1,41 +1,39 @@
-[
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "📒",
-    "bookSourceName": "靠谱小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "www.kptxt.com",
-    "bookUrlPattern": "",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1622475149965,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "coverUrl": "class.fm@tag.img@src",
-      "intro": "id.jj@tag.p@text",
-      "kind": "id.submenu@tag.a.2@text",
-      "name": "id.submenu@tag.a.3@text"
-    },
-    "ruleContent": {
-      "content": "class.chapter@textNodes"
-    },
-    "ruleExplore": {},
-    "ruleSearch": {
+[{
+  "bookSourceUrl": "www.kptxt.com",
+  "bookSourceType": "0",
+  "bookSourceName": "靠谱小说",
+  "bookSourceGroup": "📒",
+  "bookSourceComment": "",
+  "loginUrl": "",
+  "bookUrlPattern": "",
+  "header": "",
+  "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+  "exploreUrl": "",
+  "enabled": true,
+  "enabledExplore": true,
+  "weight": 0,
+  "customOrder": 0,
+  "lastUpdateTime": 1622555473689,
+  "ruleSearch": {
       "bookList": "class.book",
-      "bookUrl": "class.name@tag.a@href",
-      "coverUrl": "class.cover@tag.img@src",
+      "name": "class.name@tag.a@text",
       "intro": "class.intro@text",
-      "name": "class.name@tag.a@text"
-    },
-    "ruleToc": {
+      "coverUrl": "class.cover@tag.img@src",
+      "bookUrl": "class.name@tag.a@href"
+  },
+  "ruleExplore": {},
+  "ruleBookInfo": {
+      "name": "id.submenu@tag.a.3@text",
+      "kind": "id.submenu@tag.a.2@text",
+      "intro": "id.jj@tag.p@text",
+      "coverUrl": "class.fm@tag.img@src"
+  },
+  "ruleToc": {
       "chapterList": "class.list-item@tag.li",
       "chapterName": "tag.a@text",
       "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
-    "weight": 0
+  },
+  "ruleContent": {
+      "content": "class.chapter@textNodes"
   }
-]
+}]

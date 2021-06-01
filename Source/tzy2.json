@@ -1,49 +1,47 @@
-[
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "📒",
-    "bookSourceName": "太子爷小说",
-    "bookSourceType": 0,
-    "bookSourceUrl": "http://www.tzy2.com",
-    "bookUrlPattern": "",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": true,
-    "exploreUrl": "热门::http://www.tzy2.com/top/3-0-{{page}}.html\n最新::http://www.tzy2.com/top/13-0-{{page}}.html\n言情::http://www.tzy2.com/yanqing/{{page}}.html\n都市::http://www.tzy2.com/dushi/{{page}}.html\n古代::http://www.tzy2.com/gudai/{{page}}.html\n玄幻::http://www.tzy2.com/xuanhuan/{{page}}.html\n武侠::http://www.tzy2.com/wuxia/{{page}}.html\n仙侠::http://www.tzy2.com/xianxia/{{page}}.html\n历史::http://www.tzy2.com/lishi/{{page}}.html\n科幻::http://www.tzy2.com/kehuan/{{page}}.html\n恐怖::http://www.tzy2.com/kongbu/{{page}}.html\n悬疑::http://www.tzy2.com/xuanyi/{{page}}.html\n耽美::http://www.tzy2.com/danmei/{{page}}.html\n游戏::http://www.tzy2.com/youxi/{{page}}.html\n动漫::http://www.tzy2.com/dongman/{{page}}.html\n文学::http://www.tzy2.com/wenxue/{{page}}.html\n传记::http://www.tzy2.com/zhuanji/{{page}}.html\n社科::http://www.tzy2.com/sheke/{{page}}.html\n英语::http://www.tzy2.com/yingyu/{{page}}.html\n辣文::http://www.tzy2.com/lawen/{{page}}.html\n激情::http://www.tzy2.com/jiqing/{{page}}.html\n杂技::http://www.tzy2.com/zaji/{{page}}.html\n晋江VIP::http://www.tzy2.com/jinjiang.html\n起点VIP::http://www.tzy2.com/qidian.html\n17kVIP::http://www.tzy2.com/17k.html\n腾讯VIP::http://www.tzy2.com/tengxun.html\n潇湘VIP::http://www.tzy2.com/xiaoxiang.html\n小说VIP::http://www.tzy2.com/xsydw.html",
-    "lastUpdateTime": 1622475136683,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "id.author@tag.a@text",
-      "coverUrl": "class.fm@tag.img@src",
-      "intro": "id.jj@tag.p@text",
-      "kind": "id.submenu@tag.a.2@text",
-      "name": "id.submenu@tag.a.3@text"
-    },
-    "ruleContent": {
-      "content": "class.chapter@textNodes"
-    },
-    "ruleExplore": {
-      "author": "class.ranktitle@tag.a.1@text",
-      "bookList": "class.rankcontent",
-      "bookUrl": "class.ranktitle@tag.a.0@href",
-      "coverUrl": "class.rankdetailleft@tag.img@src",
-      "intro": "class.rankdetailright@text",
-      "name": "class.ranktitle@tag.a.0@text"
-    },
-    "ruleSearch": {
-      "author": "class.size@text",
+[{
+  "bookSourceUrl": "http://www.tzy2.com",
+  "bookSourceType": "0",
+  "bookSourceName": "太子爷小说",
+  "bookSourceGroup": "📒",
+  "bookSourceComment": "",
+  "loginUrl": "",
+  "bookUrlPattern": "",
+  "header": "",
+  "searchUrl": "http://www.tzy2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+  "exploreUrl": "热门::http://www.tzy2.com/top/3-0-{{page}}.html\n最新::http://www.tzy2.com/top/13-0-{{page}}.html\n言情::http://www.tzy2.com/yanqing/{{page}}.html\n都市::http://www.tzy2.com/dushi/{{page}}.html\n古代::http://www.tzy2.com/gudai/{{page}}.html\n玄幻::http://www.tzy2.com/xuanhuan/{{page}}.html\n武侠::http://www.tzy2.com/wuxia/{{page}}.html\n仙侠::http://www.tzy2.com/xianxia/{{page}}.html\n历史::http://www.tzy2.com/lishi/{{page}}.html\n科幻::http://www.tzy2.com/kehuan/{{page}}.html\n恐怖::http://www.tzy2.com/kongbu/{{page}}.html\n悬疑::http://www.tzy2.com/xuanyi/{{page}}.html\n耽美::http://www.tzy2.com/danmei/{{page}}.html\n游戏::http://www.tzy2.com/youxi/{{page}}.html\n动漫::http://www.tzy2.com/dongman/{{page}}.html\n文学::http://www.tzy2.com/wenxue/{{page}}.html\n传记::http://www.tzy2.com/zhuanji/{{page}}.html\n社科::http://www.tzy2.com/sheke/{{page}}.html\n英语::http://www.tzy2.com/yingyu/{{page}}.html\n辣文::http://www.tzy2.com/lawen/{{page}}.html\n激情::http://www.tzy2.com/jiqing/{{page}}.html\n杂技::http://www.tzy2.com/zaji/{{page}}.html\n晋江VIP::http://www.tzy2.com/jinjiang.html\n起点VIP::http://www.tzy2.com/qidian.html\n17kVIP::http://www.tzy2.com/17k.html\n腾讯VIP::http://www.tzy2.com/tengxun.html\n潇湘VIP::http://www.tzy2.com/xiaoxiang.html\n小说VIP::http://www.tzy2.com/xsydw.html",
+  "enabled": true,
+  "enabledExplore": true,
+  "weight": 0,
+  "customOrder": 0,
+  "lastUpdateTime": 1622555652167,
+  "ruleSearch": {
       "bookList": "class.book",
-      "bookUrl": "class.name@tag.a@href",
+      "name": "class.name@tag.a@text",
+      "author": "class.size@text",
       "coverUrl": "class.cover@tag.img@src",
-      "intro": "",
-      "name": "class.name@tag.a@text"
-    },
-    "ruleToc": {
+      "bookUrl": "class.name@tag.a@href"
+  },
+  "ruleExplore": {
+      "bookList": "class.rankcontent",
+      "name": "class.ranktitle@tag.a.0@text",
+      "author": "class.ranktitle@tag.a.1@text",
+      "intro": "class.rankdetailright@text",
+      "coverUrl": "class.rankdetailleft@tag.img@src",
+      "bookUrl": "class.ranktitle@tag.a.0@href"
+  },
+  "ruleBookInfo": {
+      "name": "id.submenu@tag.a.3@text",
+      "author": "id.author@tag.a@text",
+      "kind": "id.submenu@tag.a.2@text",
+      "intro": "id.jj@tag.p@text",
+      "coverUrl": "class.fm@tag.img@src"
+  },
+  "ruleToc": {
       "chapterList": "class.list-item@tag.li",
       "chapterName": "tag.a@text",
       "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "http://www.tzy2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
-    "weight": 0
+  },
+  "ruleContent": {
+      "content": "class.chapter@textNodes"
   }
-]
+}]

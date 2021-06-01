@@ -1,0 +1,43 @@
+[{
+    "bookSourceUrl": "http://www.86dushu.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "86读书",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.86dushu.com/search.php?keyword={{key}}&submit=,{\n\"charset\":\"gbk\"\n}",
+    "exploreUrl": "言情小说::http://www.86dushu.com/yanqing/{{page}}.html\n玄幻小说::http://www.86dushu.com/xuanhuan/{{page}}.html\n武侠小说::http://www.86dushu.com/wuxia/{{page}}.html\n历史小说::http://www.86dushu.com/lishi/{{page}}.html\n网游竞技::http://www.86dushu.com/wangyou/{{page}}.html\n科幻小说::http://www.86dushu.com/kehuan/{{page}}.html\n恐怖小说::http://www.86dushu.com/kongbu/{{page}}.html\n穿越小说::http://www.86dushu.com/chuanyue/{{page}}.html\n文学名著::http://www.86dushu.com/wenxue/{{page}}.html\n激情小说::http://www.86dushu.com/jiqing/{{page}}.html\n其他电子书::http://www.86dushu.com/qita/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1622555087393,
+    "ruleSearch": {
+        "bookList": "class.list@tag.table",
+        "name": "class.name@tag.a@text",
+        "intro": "class.book@class.intro@text",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.list@class.listable",
+        "name": "class.dysx1@tag.a@text",
+        "coverUrl": "class.listable-l@tag.img@src",
+        "bookUrl": "class.dysx1@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.left@tag.h1@text",
+        "intro": "id.con_one_1@text",
+        "coverUrl": "class.left@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes"
+    }
+}]

@@ -1,47 +1,45 @@
-[
-  {
-    "bookSourceComment": "",
-    "bookSourceGroup": "",
-    "bookSourceName": "书趣阁",
-    "bookSourceType": 0,
-    "bookSourceUrl": "www.shuquge.com",
-    "bookUrlPattern": "",
-    "customOrder": 0,
-    "enabled": true,
-    "enabledExplore": false,
-    "exploreUrl": "",
-    "header": "",
-    "lastUpdateTime": 1622475224474,
-    "loginUrl": "",
-    "ruleBookInfo": {
-      "author": "class.small@tag.span.0@text##作者：",
-      "coverUrl": "class.cover@tag.img@src",
-      "intro": "class.intro@text##简介：",
-      "kind": "class.small@tag.span.1@text##分类：",
-      "lastChapter": "class.small@tag.span.5@text",
-      "name": "class.cover@tag.img@alt",
-      "wordCount": "class.small@tag.span.3@text##字数："
-    },
-    "ruleContent": {
-      "content": "id.content@textNodes"
-    },
-    "ruleExplore": {
-      "name": "\ntag.span.1@tag.a@text"
-    },
-    "ruleSearch": {
-      "author": "class.author@text##作者：",
+[{
+  "bookSourceUrl": "www.shuquge.com",
+  "bookSourceType": "0",
+  "bookSourceName": "书趣阁",
+  "bookSourceGroup": "",
+  "bookSourceComment": "",
+  "loginUrl": "",
+  "bookUrlPattern": "",
+  "header": "",
+  "searchUrl": "https://www.shuquge.com/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+  "exploreUrl": "",
+  "enabled": true,
+  "enabledExplore": true,
+  "weight": 0,
+  "customOrder": 0,
+  "lastUpdateTime": 1622555616959,
+  "ruleSearch": {
       "bookList": "class.bookcase@class.bookbox",
-      "bookUrl": "class.bookname@tag.a@href",
+      "name": "class.bookname@tag.a@text",
+      "author": "class.author@text##作者：",
       "kind": "class.cat@text##分类：",
       "lastChapter": "class.update@tag.a@text",
-      "name": "class.bookname@tag.a@text"
-    },
-    "ruleToc": {
+      "bookUrl": "class.bookname@tag.a@href"
+  },
+  "ruleExplore": {
+      "name": "\ntag.span.1@tag.a@text"
+  },
+  "ruleBookInfo": {
+      "name": "class.cover@tag.img@alt",
+      "author": "class.small@tag.span.0@text##作者：",
+      "kind": "class.small@tag.span.1@text##分类：",
+      "wordCount": "class.small@tag.span.3@text##字数：",
+      "lastChapter": "class.small@tag.span.5@text",
+      "intro": "class.intro@text##简介：",
+      "coverUrl": "class.cover@tag.img@src"
+  },
+  "ruleToc": {
       "chapterList": "class.listmain@tag.dd",
       "chapterName": "tag.a@text",
       "chapterUrl": "tag.a@href"
-    },
-    "searchUrl": "https://www.shuquge.com/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
-    "weight": 0
+  },
+  "ruleContent": {
+      "content": "id.content@textNodes"
   }
-]
+}]
