@@ -24,7 +24,7 @@ jobs:
         run: |
           echo "FILE_DATE=$(date +"%Y%m%d")" >> $GITHUB_ENV
           git config --global user.email "action@email.com"
-          git Commit --global user.name "mergeBot"
+          git config --global user.name "mergeBot"
           git commit -m "${{ env.FILE_DATE }}" -a
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
