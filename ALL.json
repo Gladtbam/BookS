@@ -1,0 +1,179 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "太子爷小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tzy2.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门::http://www.tzy2.com/top/3-0-{{page}}.html\n最新::http://www.tzy2.com/top/13-0-{{page}}.html\n言情::http://www.tzy2.com/yanqing/{{page}}.html\n都市::http://www.tzy2.com/dushi/{{page}}.html\n古代::http://www.tzy2.com/gudai/{{page}}.html\n玄幻::http://www.tzy2.com/xuanhuan/{{page}}.html\n武侠::http://www.tzy2.com/wuxia/{{page}}.html\n仙侠::http://www.tzy2.com/xianxia/{{page}}.html\n历史::http://www.tzy2.com/lishi/{{page}}.html\n科幻::http://www.tzy2.com/kehuan/{{page}}.html\n恐怖::http://www.tzy2.com/kongbu/{{page}}.html\n悬疑::http://www.tzy2.com/xuanyi/{{page}}.html\n耽美::http://www.tzy2.com/danmei/{{page}}.html\n游戏::http://www.tzy2.com/youxi/{{page}}.html\n动漫::http://www.tzy2.com/dongman/{{page}}.html\n文学::http://www.tzy2.com/wenxue/{{page}}.html\n传记::http://www.tzy2.com/zhuanji/{{page}}.html\n社科::http://www.tzy2.com/sheke/{{page}}.html\n英语::http://www.tzy2.com/yingyu/{{page}}.html\n辣文::http://www.tzy2.com/lawen/{{page}}.html\n激情::http://www.tzy2.com/jiqing/{{page}}.html\n杂技::http://www.tzy2.com/zaji/{{page}}.html\n晋江VIP::http://www.tzy2.com/jinjiang.html\n起点VIP::http://www.tzy2.com/qidian.html\n17kVIP::http://www.tzy2.com/17k.html\n腾讯VIP::http://www.tzy2.com/tengxun.html\n潇湘VIP::http://www.tzy2.com/xiaoxiang.html\n小说VIP::http://www.tzy2.com/xsydw.html",
+    "lastUpdateTime": 1622475136683,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a@text",
+      "coverUrl": "class.fm@tag.img@src",
+      "intro": "id.jj@tag.p@text",
+      "kind": "id.submenu@tag.a.2@text",
+      "name": "id.submenu@tag.a.3@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.ranktitle@tag.a.1@text",
+      "bookList": "class.rankcontent",
+      "bookUrl": "class.ranktitle@tag.a.0@href",
+      "coverUrl": "class.rankdetailleft@tag.img@src",
+      "intro": "class.rankdetailright@text",
+      "name": "class.ranktitle@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.size@text",
+      "bookList": "class.book",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.tzy2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "麒麟书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.qlsc2.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总更新榜::http://www.qlsc2.com/top/13_0_{{page}}.html\n全部小说::http://www.qlsc2.com/top/12_0_{{page}}.html\n总人气榜::http://www.qlsc2.com/top/3_0_{{page}}.html\n总收藏榜::http://www.qlsc2.com/top/11_0_{{page}}.html\n总推荐榜::http://www.qlsc2.com/top/7_0_{{page}}.html\n魔法玄幻::http://www.qlsc2.com/xuanhuan/{{page}}.html\n仙侠修真::http://www.qlsc2.com/xianxia/{{page}}.html\n传统武侠::http://www.qlsc2.com/wuxia/{{page}}.html\n浪漫言情::http://www.qlsc2.com/yanqing/{{page}}.html\n都市言情::http://www.qlsc2.com/dushi/{{page}}.html\n都市奇幻::http://www.qlsc2.com/qihuan/{{page}}.html\n古代言情::http://www.qlsc2.com/gudai/{{page}}.html\n历史军事::http://www.qlsc2.com/lishi/{{page}}.html\n网游动漫::http://www.qlsc2.com/wangyou/{{page}}.html\n科幻未来::http://www.qlsc2.com/kehuan/{{page}}.html\n侦探推理::http://www.qlsc2.com/zhentan/{{page}}.html\n恐怖灵异::http://www.qlsc2.com/kongbu/{{page}}.html\n耽美同人::http://www.qlsc2.com/tongren/{{page}}.html\n文学名著::http://www.qlsc2.com/mingzhu/{{page}}.html\n经管教育::http://www.qlsc2.com/jingguan/{{page}}.html\n激情辣文::http://www.qlsc2.com/jiqing/{{page}}.html\n其他类型::http://www.qlsc2.com/qita/{{page}}.html\n穿越架空::http://www.qlsc2.com/chuanyue/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1622475143564,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.info@tag.img@src",
+      "intro": "id.right@class.info@text",
+      "kind": "class.position@tag.a@text",
+      "name": "class.title@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.ranktitle@tag.a.1@text",
+      "bookList": "class.grid2@tag.tbody",
+      "bookUrl": "class.even.0@tag.a@href",
+      "coverUrl": "class.odd.0@tag.img@src",
+      "intro": "class.even.0@text",
+      "name": "class.even.0@tag.a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.grid2@tag.tbody",
+      "bookUrl": "class.even.0@tag.a@href",
+      "coverUrl": "class.odd.0@tag.img@src",
+      "intro": "class.even.0@text",
+      "name": "class.even.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qlsc2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "靠谱小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.kptxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1622475149965,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.fm@tag.img@src",
+      "intro": "id.jj@tag.p@text",
+      "kind": "id.submenu@tag.a.2@text",
+      "name": "id.submenu@tag.a.3@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.book",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  },
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "肉色电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.rstxt.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新小说::http://www.rstxt.com/13-0-{{page}}.html\n人气榜::http://www.rstxt.com/3-0-{{page}}.html\n推荐榜::http://www.rstxt.com/7-0-{{page}}.html\n字数榜::http://www.rstxt.com/12-0-{{page}}.html\n收藏榜::http://www.rstxt.com/11-0-{{page}}.html\n玄幻::http://www.rstxt.com/xh/{{page}}.html\n仙侠::http://www.rstxt.com/xx/{{page}}.html\n武侠::http://www.rstxt.com/wx/{{page}}.html\n都市::http://www.rstxt.com/ds/{{page}}.html\n言情::http://www.rstxt.com/yq/{{page}}.html\n穿越::http://www.rstxt.com/cy/{{page}}.html\n历史::http://www.rstxt.com/ls/{{page}}.html\n科幻::http://www.rstxt.com/kh/{{page}}.html\n恐怖::http://www.rstxt.com/kb/{{page}}.html\n同人::http://www.rstxt.com/tr/{{page}}.html\n游戏::http://www.rstxt.com/yx/{{page}}.html\n文学::http://www.rstxt.com/wenxue/{{page}}.html\n其他::http://www.rstxt.com/qt/{{page}}.html\n香艳::http://www.rstxt.com/xy/{{page}}.html\n辣文::http://www.rstxt.com/lw/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1622475157310,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.con_limg@tag.img@src",
+      "intro": "class.r_cons@text",
+      "kind": "class.txt_nav@tag.a.1@text",
+      "name": "class.info@tag.a@title"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "class.alistbox||\nid.articlelist@tag.ul!0",
+      "bookUrl": "class.title@tag.a@href||\ntag.span.1@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.title@tag.a@title||\ntag.span.1@tag.a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.list@tag.tbody",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.rstxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]
