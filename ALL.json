@@ -41,7 +41,8 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-}{
+},
+{
   "bookSourceUrl": "www.kptxt.com",
   "bookSourceType": "0",
   "bookSourceName": "靠谱小说",
@@ -79,7 +80,8 @@
   "ruleContent": {
       "content": "class.chapter@textNodes"
   }
-}{
+},
+{
   "bookSourceUrl": "www.qlsc2.com",
   "bookSourceType": "0",
   "bookSourceName": "麒麟书城",
@@ -124,7 +126,8 @@
   "ruleContent": {
       "content": "class.chapter@textNodes"
   }
-}{
+},
+{
   "bookSourceUrl": "http://www.rstxt.com/",
   "bookSourceType": "0",
   "bookSourceName": "肉色电子书",
@@ -168,7 +171,8 @@
   "ruleContent": {
       "content": "class.content@textNodes"
   }
-}{
+},
+{
   "bookSourceUrl": "www.shuquge.com",
   "bookSourceType": "0",
   "bookSourceName": "书趣阁",
@@ -212,7 +216,8 @@
   "ruleContent": {
       "content": "id.content@textNodes"
   }
-}{
+},
+{
   "bookSourceUrl": "http://www.tzy2.com",
   "bookSourceType": "0",
   "bookSourceName": "太子爷小说",
