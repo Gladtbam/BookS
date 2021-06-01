@@ -1,0 +1,41 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "靠谱小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.kptxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1622475149965,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.fm@tag.img@src",
+      "intro": "id.jj@tag.p@text",
+      "kind": "id.submenu@tag.a.2@text",
+      "name": "id.submenu@tag.a.3@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.book",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

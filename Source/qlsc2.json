@@ -1,0 +1,48 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "麒麟书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.qlsc2.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总更新榜::http://www.qlsc2.com/top/13_0_{{page}}.html\n全部小说::http://www.qlsc2.com/top/12_0_{{page}}.html\n总人气榜::http://www.qlsc2.com/top/3_0_{{page}}.html\n总收藏榜::http://www.qlsc2.com/top/11_0_{{page}}.html\n总推荐榜::http://www.qlsc2.com/top/7_0_{{page}}.html\n魔法玄幻::http://www.qlsc2.com/xuanhuan/{{page}}.html\n仙侠修真::http://www.qlsc2.com/xianxia/{{page}}.html\n传统武侠::http://www.qlsc2.com/wuxia/{{page}}.html\n浪漫言情::http://www.qlsc2.com/yanqing/{{page}}.html\n都市言情::http://www.qlsc2.com/dushi/{{page}}.html\n都市奇幻::http://www.qlsc2.com/qihuan/{{page}}.html\n古代言情::http://www.qlsc2.com/gudai/{{page}}.html\n历史军事::http://www.qlsc2.com/lishi/{{page}}.html\n网游动漫::http://www.qlsc2.com/wangyou/{{page}}.html\n科幻未来::http://www.qlsc2.com/kehuan/{{page}}.html\n侦探推理::http://www.qlsc2.com/zhentan/{{page}}.html\n恐怖灵异::http://www.qlsc2.com/kongbu/{{page}}.html\n耽美同人::http://www.qlsc2.com/tongren/{{page}}.html\n文学名著::http://www.qlsc2.com/mingzhu/{{page}}.html\n经管教育::http://www.qlsc2.com/jingguan/{{page}}.html\n激情辣文::http://www.qlsc2.com/jiqing/{{page}}.html\n其他类型::http://www.qlsc2.com/qita/{{page}}.html\n穿越架空::http://www.qlsc2.com/chuanyue/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1622475143564,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.info@tag.img@src",
+      "intro": "id.right@class.info@text",
+      "kind": "class.position@tag.a@text",
+      "name": "class.title@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.ranktitle@tag.a.1@text",
+      "bookList": "class.grid2@tag.tbody",
+      "bookUrl": "class.even.0@tag.a@href",
+      "coverUrl": "class.odd.0@tag.img@src",
+      "intro": "class.even.0@text",
+      "name": "class.even.0@tag.a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.grid2@tag.tbody",
+      "bookUrl": "class.even.0@tag.a@href",
+      "coverUrl": "class.odd.0@tag.img@src",
+      "intro": "class.even.0@text",
+      "name": "class.even.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qlsc2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]

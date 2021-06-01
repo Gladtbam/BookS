@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒",
+    "bookSourceName": "肉色电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.rstxt.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新小说::http://www.rstxt.com/13-0-{{page}}.html\n人气榜::http://www.rstxt.com/3-0-{{page}}.html\n推荐榜::http://www.rstxt.com/7-0-{{page}}.html\n字数榜::http://www.rstxt.com/12-0-{{page}}.html\n收藏榜::http://www.rstxt.com/11-0-{{page}}.html\n玄幻::http://www.rstxt.com/xh/{{page}}.html\n仙侠::http://www.rstxt.com/xx/{{page}}.html\n武侠::http://www.rstxt.com/wx/{{page}}.html\n都市::http://www.rstxt.com/ds/{{page}}.html\n言情::http://www.rstxt.com/yq/{{page}}.html\n穿越::http://www.rstxt.com/cy/{{page}}.html\n历史::http://www.rstxt.com/ls/{{page}}.html\n科幻::http://www.rstxt.com/kh/{{page}}.html\n恐怖::http://www.rstxt.com/kb/{{page}}.html\n同人::http://www.rstxt.com/tr/{{page}}.html\n游戏::http://www.rstxt.com/yx/{{page}}.html\n文学::http://www.rstxt.com/wenxue/{{page}}.html\n其他::http://www.rstxt.com/qt/{{page}}.html\n香艳::http://www.rstxt.com/xy/{{page}}.html\n辣文::http://www.rstxt.com/lw/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1622475157310,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.con_limg@tag.img@src",
+      "intro": "class.r_cons@text",
+      "kind": "class.txt_nav@tag.a.1@text",
+      "name": "class.info@tag.a@title"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "class.alistbox||\nid.articlelist@tag.ul!0",
+      "bookUrl": "class.title@tag.a@href||\ntag.span.1@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.title@tag.a@title||\ntag.span.1@tag.a@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.list@tag.tbody",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-item@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.rstxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }
+]
