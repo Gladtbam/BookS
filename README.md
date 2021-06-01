@@ -19,4 +19,4 @@
     https://cdn.jsdelivr.net/gh/Gladtbam/BookS/ReplaceRule.json
 ```
 
-***如果jsdelivr未刷新缓存，[点此刷新](https://purge.jsdelivr.net/gh/Gladtbam/BookS/ALL.json)***  
+***如果jsdelivr未刷新缓存，[点此强制刷新](https://purge.jsdelivr.net/gh/Gladtbam/BookS/ALL.json)（一般不用点）***  
