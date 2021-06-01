@@ -1,0 +1,32 @@
+name: Merge
+
+on:
+  workflow_dispatch:
+    
+jobs:
+  merge_book:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.4
+
+      - name: merge
+        run: |
+          cd ${GITHUB_WORKSPACE}/Source
+          sed -i 's/\[//g' *.json
+          sed -i 's/\]//g' *.json
+          cat *.json >> ALL.json
+          sed -i '1i \[' ALL.json
+          sed -i '$a \]' ALL.json
+          mv -f ALL.json ../
+      - name: Commit files
+        run: |
+          echo "FILE_DATE=$(date +"%Y%m%d")" >> $GITHUB_ENV
+          git config --global user.email "action@email.com"
+          git Commit --global user.name "mergeBot"
+          git commit -m "${{ env.FILE_DATE }}" -a
+      - name: GitHub Push
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
