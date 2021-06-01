@@ -14,9 +14,9 @@ jobs:
       - name: merge
         run: |
           cd ${GITHUB_WORKSPACE}/Source
-          sed -i 's/\[//g' *.json
-          sed -i 's/\]//g' *.json
           cat *.json >> ALL.json
+          sed -i 's/\[//g' ALL.json
+          sed -i 's/\]//g' ALL.json
           sed -i '1i \[' ALL.json
           sed -i '$a \]' ALL.json
           mv -f ALL.json ../
