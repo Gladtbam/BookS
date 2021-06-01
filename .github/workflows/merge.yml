@@ -4,16 +4,19 @@ on:
   workflow_dispatch:
     
 jobs:
-  merge_book:
+  Merge_book:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout
         uses: actions/checkout@v2.3.4
-
-      - name: merge
+      - name: Set Environment
         run: |
-          cd ${GITHUB_WORKSPACE}/Source
+          sudo timedatectl set-timezone "$TZ"
+          echo "FILE_DATE=$(date +"%Y%m%d")" >> $GITHUB_ENV
+      - name: Merge
+        run: |
+          cd $GITHUB_WORKSPACE/Source
           cat *.json >> ALL.json
           sed -i 's/\[//g' ALL.json
           sed -i 's/\]//g' ALL.json
@@ -22,11 +25,11 @@ jobs:
           mv -f ALL.json ../
       - name: Commit files
         run: |
-          echo "FILE_DATE=$(date +"%Y%m%d")" >> $GITHUB_ENV
           git config --global user.email "action@email.com"
           git config --global user.name "mergeBot"
-          git commit -m "${{ env.FILE_DATE }}整合" -a
+          git commit -m "整合于${{ env.FILE_DATE }}" -a
       - name: GitHub Push
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
