@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
     "bookSourceName": "芙蓉小说",
@@ -43,4 +43,4 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-}
+}]
