@@ -43,6 +43,95 @@
     }
 },
 {
+    "bookSourceUrl": "http://www.amtxt.net/",
+    "bookSourceType": "0",
+    "bookSourceName": "暧昧电子书",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.amtxt.net/search.php?keyword={{key}}&submit=%CB%D1+%CB%F7,{\n\"charset\":\"gbk\"\n}",
+    "exploreUrl": "玄幻::http://www.amtxt.net/1/{{page}}.html\n言情::http://www.amtxt.net/2/{{page}}.html\n都市::http://www.amtxt.net/3/{{page}}.html\n武侠::http://www.amtxt.net/4/{{page}}.html\n仙侠::http://www.amtxt.net/5/{{page}}.html\n穿越::http://www.amtxt.net/6/{{page}}.html\n历史::http://www.amtxt.net/7/{{page}}.html\n恐怖::http://www.amtxt.net/8/{{page}}.html\n科幻::http://www.amtxt.net/9/{{page}}.html\n游戏::http://www.amtxt.net/10/{{page}}.html\n耽美::http://www.amtxt.net/11/{{page}}.html\n暧昧::http://www.amtxt.net/12/{{page}}.html\n文学::http://www.amtxt.net/13/{{page}}.html\n其他::http://www.amtxt.net/14/{{page}}.html\n激情::http://www.amtxt.net/15/{{page}}.html\nH短片::http://www.amtxt.net/16/{{page}}.html\n日排行::http://www.amtxt.net/top/0_0_{{page}}.html\n周排行::http://www.amtxt.net/top/1_0_{{page}}.html\n月排行::http://www.amtxt.net/top/2_0_{{page}}.html\n总排行::http://www.amtxt.net/top/3_0_{{page}}.html\n日推荐::http://www.amtxt.net/top/4_0_{{page}}.html\n周推荐::http://www.amtxt.net/top/5_0_{{page}}.html\n月推荐::http://www.amtxt.net/top/6_0_{{page}}.html\n总推荐::http://www.amtxt.net/top/7_0_{{page}}.html\n日收藏::http://www.amtxt.net/top/8_0_{{page}}.html\n周收藏::http://www.amtxt.net/top/9_0_{{page}}.html\n月收藏::http://www.amtxt.net/top/10_0_{{page}}.html\n总收藏::http://www.amtxt.net/top/11_0_{{page}}.html\n字数排行::http://www.amtxt.net/top/12_0_{{page}}.html\n最新小说::http://www.amtxt.net/top/13_0_{{page}}.html",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623161297649,
+    "ruleSearch": {
+        "bookList": "class.list@tag.tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text#电子书简介：",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.list@class.listable-l",
+        "name": "class.listable-l@tag.a@title",
+        "coverUrl": "class.listable-l@tag.img@src",
+        "bookUrl": "class.listable-l@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.jianjie@tag.img@alt",
+        "intro": "class.jianjie@text",
+        "coverUrl": "class.jianjie@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.download.1@tag.ul@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "https://www.banzhul.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "第二版主网",
+    "bookSourceGroup": "无搜索",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "https://www.banzhul.com/(\\d+)_(\\d+)",
+    "header": "",
+    "searchUrl": "https://www.banzhul.com/home/search,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"q={{key}}\"\n}",
+    "exploreUrl": "玄幻魔法::https://www.banzhul.com/xuanhuan/\n武侠修真::https://www.banzhul.com/xiuzhen/\n历史穿越::https://www.banzhul.com/lishi/\n游戏竞技::https://www.banzhul.com/wangyou/\n都市言情::https://www.banzhul.com/dushi/\n科幻小说::https://www.banzhul.com/kehuan/\n女频小说::https://www.banzhul.com/nvpin/\n书库::https://www.banzhul.com/xiaoshuodaquan\n排行榜::https://www.banzhul.com/paihangbang/",
+    "enabled": false,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623163491988,
+    "ruleSearch": {
+        "bookList": "id.main@tag.ul@tag.li",
+        "name": "class.item-cover@tag.a@title",
+        "coverUrl": "class.item-cover@tag.img@src",
+        "bookUrl": "class.item-cover@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.right-book-list@tag.li||class.bos1@tag.li||class.pais92@tag.li",
+        "name": "class.book-info@tag.a@text||class.item-cover@tag.a@title||class.s2@tag.a@text##《|》",
+        "author": "class.default@text||class@pais93@text",
+        "kind": "class.tag@tag.span.0@text",
+        "intro": "class.intro@text",
+        "coverUrl": "class.book-img@tag.img@src||class.item-cover@tag.img@src",
+        "bookUrl": "class.book-info@tag.a@href||class.item-cover@tag.a@href||class.s2@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text##《|》",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
+        "nextContentUrl": "text.下一页@href"
+    }
+},
+{
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
     "bookSourceName": "芙蓉小说",
@@ -309,5 +398,45 @@
   "ruleContent": {
       "content": "class.chapter@textNodes"
   }
+},
+{
+    "bookSourceUrl": "http://www.yzwxs.org",
+    "bookSourceType": "0",
+    "bookSourceName": "御宅屋",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.yzwxs.org/modules/article/search.php,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623161677657,
+    "ruleSearch": {
+        "bookList": "tag.tbody@tag.tr",
+        "name": "tag.td.0@tag.a@text",
+        "author": "tag.td.2@text",
+        "lastChapter": "tag.td.1@tag.a@text",
+        "bookUrl": "tag.td.0@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "id.info@tag.p@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "replaceRegex": "##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com"
+    }
 }
 ]
