@@ -1,0 +1,46 @@
+[{
+    "bookSourceUrl": "https://www.banzhul.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "第二版主网",
+    "bookSourceGroup": "无搜索",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "https://www.banzhul.com/(\\d+)_(\\d+)",
+    "header": "",
+    "searchUrl": "https://www.banzhul.com/home/search,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"q={{key}}\"\n}",
+    "exploreUrl": "玄幻魔法::https://www.banzhul.com/xuanhuan/\n武侠修真::https://www.banzhul.com/xiuzhen/\n历史穿越::https://www.banzhul.com/lishi/\n游戏竞技::https://www.banzhul.com/wangyou/\n都市言情::https://www.banzhul.com/dushi/\n科幻小说::https://www.banzhul.com/kehuan/\n女频小说::https://www.banzhul.com/nvpin/\n书库::https://www.banzhul.com/xiaoshuodaquan\n排行榜::https://www.banzhul.com/paihangbang/",
+    "enabled": false,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623163491988,
+    "ruleSearch": {
+        "bookList": "id.main@tag.ul@tag.li",
+        "name": "class.item-cover@tag.a@title",
+        "coverUrl": "class.item-cover@tag.img@src",
+        "bookUrl": "class.item-cover@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.right-book-list@tag.li||class.bos1@tag.li||class.pais92@tag.li",
+        "name": "class.book-info@tag.a@text||class.item-cover@tag.a@title||class.s2@tag.a@text##《|》",
+        "author": "class.default@text||class@pais93@text",
+        "kind": "class.tag@tag.span.0@text",
+        "intro": "class.intro@text",
+        "coverUrl": "class.book-img@tag.img@src||class.item-cover@tag.img@src",
+        "bookUrl": "class.book-info@tag.a@href||class.item-cover@tag.a@href||class.s2@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text##《|》",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
+        "nextContentUrl": "text.下一页@href"
+    }
+}]
