@@ -1,0 +1,42 @@
+[{
+    "bookSourceUrl": "https://www.x33xs.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "33小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://www.x33xs.com/search.php?keyword={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623566827076,
+    "ruleSearch": {
+        "bookList": "class.result-list@class.result-item",
+        "name": "class.result-item-title@tag.a@text##最新章节免费阅读",
+        "author": "class.result-game-item-info@tag.p.0@text##作者：",
+        "kind": "class.result-game-item-info@tag.p.1@text##类型：",
+        "lastChapter": "class.result-game-item-info@tag.a@text##最新章节：",
+        "coverUrl": "class.result-game-item-pic@tag.img@src",
+        "bookUrl": "class.result-game-item-pic@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text##最新章节免费阅读",
+        "author": "id.info@tag.p.0@text",
+        "lastChapter": "id.info@tag.p.2@tag.a@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+}]
