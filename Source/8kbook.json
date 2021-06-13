@@ -1,0 +1,47 @@
+[{
+    "bookSourceUrl": "http://www.8kbook.com",
+    "bookSourceType": "0",
+    "bookSourceName": "八块小说网",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.8kbook.com/search.php?keyword={{key}}&submit=%CB%D1+%CB%F7,{\n\"charset\":\"gb2312\"\n}",
+    "exploreUrl": "言情::http://www.8kbook.com/1/{{page}}.html\n都市::http://www.8kbook.com/2/{{page}}.html\n玄幻::http://www.8kbook.com/3/{{page}}.html\n仙侠::http://www.8kbook.com/4/{{page}}.html\n武侠::http://www.8kbook.com/5/{{page}}.html\n穿越::http://www.8kbook.com/6/{{page}}.html\n历史::http://www.8kbook.com/7/{{page}}.html\n军事::http://www.8kbook.com/8/{{page}}.html\n科幻::http://www.8kbook.com/9/{{page}}.html\n恐怖::http://www.8kbook.com/10/{{page}}.html\n推理::http://www.8kbook.com/11/{{page}}.html\n游戏::http://www.8kbook.com/12/{{page}}.html\n体育::http://www.8kbook.com/13/{{page}}.html\n耽美::http://www.8kbook.com/14/{{page}}.html\n同人::http://www.8kbook.com/15/{{page}}.html\n名著::http://www.8kbook.com/16/{{page}}.html\n激情::http://www.8kbook.com/17/{{page}}.html\n其他::http://www.8kbook.com/18/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623569509036,
+    "ruleSearch": {
+        "bookList": "class.list@tag.tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text##电子书简介：",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "id.sort_newbook@class.sort_list",
+        "name": "class.title@tag.a@text##《|》",
+        "author": "class.tj@tag.label.0@text##上传者：",
+        "kind": "class.tj@tag.label.3@text##分类：",
+        "intro": "class.intro@text##简介：",
+        "coverUrl": "class.sort_list@tag.img@src",
+        "bookUrl": "class.title@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text##上传者：.+",
+        "author": "id.author@text##上传者：",
+        "intro": "id.jj@text##内容简介",
+        "coverUrl": "class.fm@tag.img.0@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes"
+    }
+}]
