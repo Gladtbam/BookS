@@ -43,6 +43,53 @@
     }
 },
 {
+    "bookSourceUrl": "http://www.8kbook.com",
+    "bookSourceType": "0",
+    "bookSourceName": "八块小说网",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.8kbook.com/search.php?keyword={{key}}&submit=%CB%D1+%CB%F7,{\n\"charset\":\"gb2312\"\n}",
+    "exploreUrl": "言情::http://www.8kbook.com/1/{{page}}.html\n都市::http://www.8kbook.com/2/{{page}}.html\n玄幻::http://www.8kbook.com/3/{{page}}.html\n仙侠::http://www.8kbook.com/4/{{page}}.html\n武侠::http://www.8kbook.com/5/{{page}}.html\n穿越::http://www.8kbook.com/6/{{page}}.html\n历史::http://www.8kbook.com/7/{{page}}.html\n军事::http://www.8kbook.com/8/{{page}}.html\n科幻::http://www.8kbook.com/9/{{page}}.html\n恐怖::http://www.8kbook.com/10/{{page}}.html\n推理::http://www.8kbook.com/11/{{page}}.html\n游戏::http://www.8kbook.com/12/{{page}}.html\n体育::http://www.8kbook.com/13/{{page}}.html\n耽美::http://www.8kbook.com/14/{{page}}.html\n同人::http://www.8kbook.com/15/{{page}}.html\n名著::http://www.8kbook.com/16/{{page}}.html\n激情::http://www.8kbook.com/17/{{page}}.html\n其他::http://www.8kbook.com/18/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623569509036,
+    "ruleSearch": {
+        "bookList": "class.list@tag.tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text##电子书简介：",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "id.sort_newbook@class.sort_list",
+        "name": "class.title@tag.a@text##《|》",
+        "author": "class.tj@tag.label.0@text##上传者：",
+        "kind": "class.tj@tag.label.3@text##分类：",
+        "intro": "class.intro@text##简介：",
+        "coverUrl": "class.sort_list@tag.img@src",
+        "bookUrl": "class.title@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text##上传者：.+",
+        "author": "id.author@text##上传者：",
+        "intro": "id.jj@text##内容简介",
+        "coverUrl": "class.fm@tag.img.0@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes"
+    }
+},
+{
     "bookSourceUrl": "http://www.amtxt.net/",
     "bookSourceType": "0",
     "bookSourceName": "暧昧电子书",
@@ -353,51 +400,94 @@
   }
 },
 {
-  "bookSourceUrl": "http://www.tzy2.com",
-  "bookSourceType": "0",
-  "bookSourceName": "太子爷小说",
-  "bookSourceGroup": "📒",
-  "bookSourceComment": "",
-  "loginUrl": "",
-  "bookUrlPattern": "",
-  "header": "",
-  "searchUrl": "http://www.tzy2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
-  "exploreUrl": "热门::http://www.tzy2.com/top/3-0-{{page}}.html\n最新::http://www.tzy2.com/top/13-0-{{page}}.html\n言情::http://www.tzy2.com/yanqing/{{page}}.html\n都市::http://www.tzy2.com/dushi/{{page}}.html\n古代::http://www.tzy2.com/gudai/{{page}}.html\n玄幻::http://www.tzy2.com/xuanhuan/{{page}}.html\n武侠::http://www.tzy2.com/wuxia/{{page}}.html\n仙侠::http://www.tzy2.com/xianxia/{{page}}.html\n历史::http://www.tzy2.com/lishi/{{page}}.html\n科幻::http://www.tzy2.com/kehuan/{{page}}.html\n恐怖::http://www.tzy2.com/kongbu/{{page}}.html\n悬疑::http://www.tzy2.com/xuanyi/{{page}}.html\n耽美::http://www.tzy2.com/danmei/{{page}}.html\n游戏::http://www.tzy2.com/youxi/{{page}}.html\n动漫::http://www.tzy2.com/dongman/{{page}}.html\n文学::http://www.tzy2.com/wenxue/{{page}}.html\n传记::http://www.tzy2.com/zhuanji/{{page}}.html\n社科::http://www.tzy2.com/sheke/{{page}}.html\n英语::http://www.tzy2.com/yingyu/{{page}}.html\n辣文::http://www.tzy2.com/lawen/{{page}}.html\n激情::http://www.tzy2.com/jiqing/{{page}}.html\n杂技::http://www.tzy2.com/zaji/{{page}}.html\n晋江VIP::http://www.tzy2.com/jinjiang.html\n起点VIP::http://www.tzy2.com/qidian.html\n17kVIP::http://www.tzy2.com/17k.html\n腾讯VIP::http://www.tzy2.com/tengxun.html\n潇湘VIP::http://www.tzy2.com/xiaoxiang.html\n小说VIP::http://www.tzy2.com/xsydw.html",
-  "enabled": true,
-  "enabledExplore": true,
-  "weight": 0,
-  "customOrder": 0,
-  "lastUpdateTime": 1622555652167,
-  "ruleSearch": {
-      "bookList": "class.book",
-      "name": "class.name@tag.a@text",
-      "author": "class.size@text",
-      "coverUrl": "class.cover@tag.img@src",
-      "bookUrl": "class.name@tag.a@href"
-  },
-  "ruleExplore": {
-      "bookList": "class.rankcontent",
-      "name": "class.ranktitle@tag.a.0@text",
-      "author": "class.ranktitle@tag.a.1@text",
-      "intro": "class.rankdetailright@text",
-      "coverUrl": "class.rankdetailleft@tag.img@src",
-      "bookUrl": "class.ranktitle@tag.a.0@href"
-  },
-  "ruleBookInfo": {
-      "name": "id.submenu@tag.a.3@text",
-      "author": "id.author@tag.a@text",
-      "kind": "id.submenu@tag.a.2@text",
-      "intro": "id.jj@tag.p@text",
-      "coverUrl": "class.fm@tag.img@src"
-  },
-  "ruleToc": {
-      "chapterList": "class.list-item@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-      "content": "class.chapter@textNodes"
-  }
+    "bookSourceUrl": "http://www.tzy2.com",
+    "bookSourceType": "0",
+    "bookSourceName": "太子爷小说",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://www.tzy2.com/search.php?keyword={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "exploreUrl": "热门::http://www.tzy2.com/top/3-0-{{page}}.html\n最新::http://www.tzy2.com/top/13-0-{{page}}.html\n言情::http://www.tzy2.com/yanqing/{{page}}.html\n都市::http://www.tzy2.com/dushi/{{page}}.html\n古代::http://www.tzy2.com/gudai/{{page}}.html\n玄幻::http://www.tzy2.com/xuanhuan/{{page}}.html\n武侠::http://www.tzy2.com/wuxia/{{page}}.html\n仙侠::http://www.tzy2.com/xianxia/{{page}}.html\n历史::http://www.tzy2.com/lishi/{{page}}.html\n科幻::http://www.tzy2.com/kehuan/{{page}}.html\n恐怖::http://www.tzy2.com/kongbu/{{page}}.html\n悬疑::http://www.tzy2.com/xuanyi/{{page}}.html\n耽美::http://www.tzy2.com/danmei/{{page}}.html\n游戏::http://www.tzy2.com/youxi/{{page}}.html\n动漫::http://www.tzy2.com/dongman/{{page}}.html\n文学::http://www.tzy2.com/wenxue/{{page}}.html\n传记::http://www.tzy2.com/zhuanji/{{page}}.html\n社科::http://www.tzy2.com/sheke/{{page}}.html\n英语::http://www.tzy2.com/yingyu/{{page}}.html\n辣文::http://www.tzy2.com/lawen/{{page}}.html\n激情::http://www.tzy2.com/jiqing/{{page}}.html\n杂技::http://www.tzy2.com/zaji/{{page}}.html\n晋江VIP::http://www.tzy2.com/jinjiang.html\n起点VIP::http://www.tzy2.com/qidian.html\n17kVIP::http://www.tzy2.com/17k.html\n腾讯VIP::http://www.tzy2.com/tengxun.html\n潇湘VIP::http://www.tzy2.com/xiaoxiang.html\n小说VIP::http://www.tzy2.com/xsydw.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623565230737,
+    "ruleSearch": {
+        "bookList": "class.book",
+        "name": "class.name@tag.a@text",
+        "author": "class.size@text",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.rankcontent",
+        "name": "class.ranktitle@tag.a.0@text",
+        "author": "class.ranktitle@tag.a.1@text",
+        "intro": "class.rankdetailright@text",
+        "coverUrl": "class.rankdetailleft@tag.img@src",
+        "bookUrl": "class.ranktitle@tag.a.0@href"
+    },
+    "ruleBookInfo": {
+        "name": "id.submenu@tag.a.3@text",
+        "author": "id.author@tag.a@text",
+        "kind": "id.submenu@tag.a.2@text",
+        "intro": "id.jj@tag.p@text",
+        "coverUrl": "class.fm@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes##\\*.+\\*|\\｜|\\（\\）.+电子书.+\\n|\\（\\）",
+        "replaceRegex": "<js>\nm=;n=;\nfunction x(a,b){m.push(a);n.push(b)}\nx(/Gui头/gi,\"龟头\");\nx(/Jing液/gi,\"精液\");\nfor(i in n){result=result.replace(mi,ni)}\n</js>"
+    }
+},
+{
+    "bookSourceUrl": "https://www.x33xs.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "33小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://www.x33xs.com/search.php?keyword={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623566827076,
+    "ruleSearch": {
+        "bookList": "class.result-list@class.result-item",
+        "name": "class.result-item-title@tag.a@text##最新章节免费阅读",
+        "author": "class.result-game-item-info@tag.p.0@text##作者：",
+        "kind": "class.result-game-item-info@tag.p.1@text##类型：",
+        "lastChapter": "class.result-game-item-info@tag.a@text##最新章节：",
+        "coverUrl": "class.result-game-item-pic@tag.img@src",
+        "bookUrl": "class.result-game-item-pic@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text##最新章节免费阅读",
+        "author": "id.info@tag.p.0@text",
+        "lastChapter": "id.info@tag.p.2@tag.a@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
 },
 {
     "bookSourceUrl": "http://www.yzwxs.org",
