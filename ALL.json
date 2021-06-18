@@ -225,43 +225,86 @@
     }
 }
 {
-  "bookSourceUrl": "www.kptxt.com",
-  "bookSourceType": "0",
-  "bookSourceName": "靠谱小说",
-  "bookSourceGroup": "📒",
-  "bookSourceComment": "",
-  "loginUrl": "",
-  "bookUrlPattern": "",
-  "header": "",
-  "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
-  "exploreUrl": "",
-  "enabled": true,
-  "enabledExplore": true,
-  "weight": 0,
-  "customOrder": 0,
-  "lastUpdateTime": 1622555473689,
-  "ruleSearch": {
-      "bookList": "class.book",
-      "name": "class.name@tag.a@text",
-      "intro": "class.intro@text",
-      "coverUrl": "class.cover@tag.img@src",
-      "bookUrl": "class.name@tag.a@href"
-  },
-  "ruleExplore": {},
-  "ruleBookInfo": {
-      "name": "id.submenu@tag.a.3@text",
-      "kind": "id.submenu@tag.a.2@text",
-      "intro": "id.jj@tag.p@text",
-      "coverUrl": "class.fm@tag.img@src"
-  },
-  "ruleToc": {
-      "chapterList": "class.list-item@tag.li",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-      "content": "class.chapter@textNodes"
-  }
+    "bookSourceUrl": "www.kptxt.com",
+    "bookSourceType": "0",
+    "bookSourceName": "靠谱小说",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "http://www.kptxt.com/.+A-Za-z/\\d*.html",
+    "header": "",
+    "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1623934740090,
+    "ruleSearch": {
+        "bookList": "class.book",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.submenu@tag.a.2@text",
+        "intro": "id.jj@tag.p@text",
+        "coverUrl": "class.fm@tag.img.0@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.chapter@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "http://www.muxs.net/",
+    "bookSourceType": "0",
+    "bookSourceName": "木小说",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "http://www.muxs.net/info.+\\d.html",
+    "header": "",
+    "searchUrl": "http://www.muxs.net/search.php?keyword={{key}}&submit=,{\n\"charset\":\"gbk\"\n}",
+    "exploreUrl": "玄幻::http://www.muxs.net/xuanhuan/{{page}}.html\n武侠::http://www.muxs.net/wuxia/{{page}}.html\n历史::http://www.muxs.net/lishi/{{page}}.html\n恐怖::http://www.muxs.net/kongbu/{{page}}.html\n科幻::http://www.muxs.net/kehuan/{{page}}.html\n都市::http://www.muxs.net/dushi/{{page}}.html\n言情::http://www.muxs.net/yanqing/{{page}}.html\n穿越::http://www.muxs.net/chuanyue/{{page}}.html\n青春::http://www.muxs.net/qingchun/{{page}}.html\n同人::http://www.muxs.net/tongren/{{page}}.html\n游戏::http://www.muxs.net/youxi/{{page}}.html\n耽美::http://www.muxs.net/danmei/{{page}}.html\n文学::http://www.muxs.net/wenxue/{{page}}.html\n其他::http://www.muxs.net/qita/{{page}}.html\n激情::http://www.muxs.net/jiqing/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624022775948,
+    "ruleSearch": {
+        "bookList": "class.list@tag.tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text##电子书简介：\\{",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.alistbox",
+        "name": "class.title@tag.a@title",
+        "intro": "class.intro@text##\\(\\)：\\/.+\\d\\/",
+        "coverUrl": "class.pic@tag.img@src",
+        "bookUrl": "class.title@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@tag.a@text",
+        "intro": "class.r_cons@text",
+        "coverUrl": "class.con_limg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@textNodes"
+    }
 },
 {
   "bookSourceUrl": "www.qlsc2.com",
