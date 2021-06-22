@@ -1,4 +1,4 @@
-{
+[{
   "bookSourceUrl": "www.qlsc2.com",
   "bookSourceType": "0",
   "bookSourceName": "麒麟书城",
@@ -43,4 +43,4 @@
   "ruleContent": {
       "content": "class.chapter@textNodes"
   }
-}
+}]
