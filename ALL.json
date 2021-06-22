@@ -90,6 +90,59 @@
     }
 },
 {
+    "bookSourceUrl": "https://www.9txs.org",
+    "bookSourceType": "0",
+    "bookSourceName": "九桃小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://so.9txs.org/www/,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "玄幻奇幻::/sort/xuanhuan.html\n武侠修真::/sort/wuxia.html\n都市生活::/sort/dushi.html\n历史军事::/sort/lishi.html\n游戏竞技::/sort/youxi.html\n科幻未来::/sort/kehuan.html\n悬疑灵异::/sort/xuanyi.html\n二次元::/sort/erciyuan.html\n经典短篇::/sort/jingdian.html\n古代言情::/sort/gudai.html\n现代言情::/sort/xiandai.html\n幻想奇缘::/sort/huanxiang.html\n浪漫青春::/sort/qingchun.html\n网络情缘::/sort/wangluo.html\n科幻空间::/sort/kongjian.html\n恐怖灵异::/sort/lingyi.html\nN次元::/sort/tongren.html\n言情美文::/sort/yanqing.html\n其他类型::/sort/qita.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624364744590,
+    "ruleSearch": {
+        "bookList": "class.library@tag.li",
+        "name": "class.bookname@text",
+        "author": "class.author@text",
+        "kind": "tag.p.0@tag.a.1@text",
+        "wordCount": "tag.p.0@text##[^\\d万字]",
+        "lastChapter": "class.chapter@text##最新章节：",
+        "intro": "class.intro@text",
+        "coverUrl": "class.bookimg@tag.img@src",
+        "bookUrl": "class.bookname@href"
+    },
+    "ruleExplore": {
+        "bookList": "tag.tbody@tag.tr",
+        "name": "tag.td.0@tag.a@text",
+        "author": "tag.td.2@tag.a@text",
+        "lastChapter": "tag.td.1@tag.a@text",
+        "bookUrl": "tag.td.0@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "tag.p.0@tag.a.0@text",
+        "kind": "tag.p.0@tag.a.1@text",
+        "wordCount": "tag.p.0@text##[^\\d万字]",
+        "lastChapter": "tag.p.3@tag.a@text",
+        "intro": "class.intro.0@text",
+        "coverUrl": "class.detail@tag.img@src",
+        "tocUrl": "class.more@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.read@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@tag.p!0:-1@text"
+    }
+},
+{
     "bookSourceUrl": "http://www.amtxt.net/",
     "bookSourceType": "0",
     "bookSourceName": "暧昧电子书",
@@ -147,7 +200,7 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624344390232,
+    "lastUpdateTime": 1624359975520,
     "ruleSearch": {
         "bookList": "id.main@tag.ul@tag.li",
         "name": "class.item-cover@tag.a@title##《|》",
@@ -174,7 +227,7 @@
         "chapterUrl": "tag.a@href"
     },
     "ruleContent": {
-        "content": "id.content@textNodes##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
+        "content": "id.content@textNodes",
         "nextContentUrl": "text.下一页@href"
     }
 },
@@ -491,49 +544,49 @@
     }
 },
 {
-  "bookSourceUrl": "www.shuquge.com",
-  "bookSourceType": "0",
-  "bookSourceName": "书趣阁",
-  "bookSourceGroup": "",
-  "bookSourceComment": "",
-  "loginUrl": "",
-  "bookUrlPattern": "",
-  "header": "",
-  "searchUrl": "https://www.shuquge.com/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
-  "exploreUrl": "",
-  "enabled": true,
-  "enabledExplore": true,
-  "weight": 0,
-  "customOrder": 0,
-  "lastUpdateTime": 1622555616959,
-  "ruleSearch": {
-      "bookList": "class.bookcase@class.bookbox",
-      "name": "class.bookname@tag.a@text",
-      "author": "class.author@text##作者：",
-      "kind": "class.cat@text##分类：",
-      "lastChapter": "class.update@tag.a@text",
-      "bookUrl": "class.bookname@tag.a@href"
-  },
-  "ruleExplore": {
-      "name": "\ntag.span.1@tag.a@text"
-  },
-  "ruleBookInfo": {
-      "name": "class.cover@tag.img@alt",
-      "author": "class.small@tag.span.0@text##作者：",
-      "kind": "class.small@tag.span.1@text##分类：",
-      "wordCount": "class.small@tag.span.3@text##字数：",
-      "lastChapter": "class.small@tag.span.5@text",
-      "intro": "class.intro@text##简介：",
-      "coverUrl": "class.cover@tag.img@src"
-  },
-  "ruleToc": {
-      "chapterList": "class.listmain@tag.dd",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-      "content": "id.content@textNodes"
-  }
+    "bookSourceUrl": "https://www.sizhicn.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "书趣阁",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624360432007,
+    "ruleSearch": {
+        "bookList": "class.bookcase@class.bookbox",
+        "name": "class.bookname@tag.a@text",
+        "author": "class.author@text##作者：",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@tag.a@text",
+        "bookUrl": "class.bookname@tag.a@href"
+    },
+    "ruleExplore": {
+        "name": "\ntag.span.1@tag.a@text"
+    },
+    "ruleBookInfo": {
+        "name": "class.cover@tag.img@alt",
+        "author": "class.small@tag.span.0@text##作者：",
+        "kind": "class.small@tag.span.1@text##分类：",
+        "wordCount": "class.small@tag.span.3@text##字数：",
+        "lastChapter": "class.small@tag.span.5@text",
+        "intro": "class.intro@text##简介：",
+        "coverUrl": "class.cover@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
 },
 {
     "bookSourceUrl": "http://www.tzy2.com",
