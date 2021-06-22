@@ -1,45 +1,45 @@
 [{
-  "bookSourceUrl": "www.shuquge.com",
-  "bookSourceType": "0",
-  "bookSourceName": "书趣阁",
-  "bookSourceGroup": "",
-  "bookSourceComment": "",
-  "loginUrl": "",
-  "bookUrlPattern": "",
-  "header": "",
-  "searchUrl": "https://www.shuquge.com/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
-  "exploreUrl": "",
-  "enabled": true,
-  "enabledExplore": true,
-  "weight": 0,
-  "customOrder": 0,
-  "lastUpdateTime": 1622555616959,
-  "ruleSearch": {
-      "bookList": "class.bookcase@class.bookbox",
-      "name": "class.bookname@tag.a@text",
-      "author": "class.author@text##作者：",
-      "kind": "class.cat@text##分类：",
-      "lastChapter": "class.update@tag.a@text",
-      "bookUrl": "class.bookname@tag.a@href"
-  },
-  "ruleExplore": {
-      "name": "\ntag.span.1@tag.a@text"
-  },
-  "ruleBookInfo": {
-      "name": "class.cover@tag.img@alt",
-      "author": "class.small@tag.span.0@text##作者：",
-      "kind": "class.small@tag.span.1@text##分类：",
-      "wordCount": "class.small@tag.span.3@text##字数：",
-      "lastChapter": "class.small@tag.span.5@text",
-      "intro": "class.intro@text##简介：",
-      "coverUrl": "class.cover@tag.img@src"
-  },
-  "ruleToc": {
-      "chapterList": "class.listmain@tag.dd",
-      "chapterName": "tag.a@text",
-      "chapterUrl": "tag.a@href"
-  },
-  "ruleContent": {
-      "content": "id.content@textNodes"
-  }
+    "bookSourceUrl": "https://www.sizhicn.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "书趣阁",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624360432007,
+    "ruleSearch": {
+        "bookList": "class.bookcase@class.bookbox",
+        "name": "class.bookname@tag.a@text",
+        "author": "class.author@text##作者：",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@tag.a@text",
+        "bookUrl": "class.bookname@tag.a@href"
+    },
+    "ruleExplore": {
+        "name": "\ntag.span.1@tag.a@text"
+    },
+    "ruleBookInfo": {
+        "name": "class.cover@tag.img@alt",
+        "author": "class.small@tag.span.0@text##作者：",
+        "kind": "class.small@tag.span.1@text##分类：",
+        "wordCount": "class.small@tag.span.3@text##字数：",
+        "lastChapter": "class.small@tag.span.5@text",
+        "intro": "class.intro@text##简介：",
+        "coverUrl": "class.cover@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
 }]
