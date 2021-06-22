@@ -147,10 +147,10 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1623314576675,
+    "lastUpdateTime": 1624344390232,
     "ruleSearch": {
         "bookList": "id.main@tag.ul@tag.li",
-        "name": "class.item-cover@tag.a@title",
+        "name": "class.item-cover@tag.a@title##《|》",
         "coverUrl": "class.item-cover@tag.img@src",
         "bookUrl": "class.item-cover@tag.a@href"
     },
@@ -260,6 +260,49 @@
     },
     "ruleContent": {
         "content": "class.chapter@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "http://m.shencou.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "神凑轻小说",
+    "bookSourceGroup": "轻小说,📱",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://m.shencou.com/wapse.php,{\n\"charset\": \"gbk\",\n\"method\":\"post\",\n\"body\":\"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624344534833,
+    "ruleSearch": {
+        "bookList": "class.line",
+        "name": "class.blue@text",
+        "author": "tag.a.2@text",
+        "kind": "tag.a.0@text##\\|\\",
+        "bookUrl": "tag.a.1@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "class.block_txt2@tag.h2@text",
+        "author": "class.block_txt2@tag.a.2@text",
+        "kind": "class.block_txt2@tag.a.3@text",
+        "lastChapter": "class.block_txt2@tag.a.4@text",
+        "intro": "class.intro_info@text",
+        "coverUrl": "class.block_img2@tag.img@src",
+        "tocUrl": "class.margin_right@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html"
     }
 },
 {
@@ -396,6 +439,56 @@
   "ruleContent": {
       "content": "class.content@textNodes"
   }
+},
+{
+    "bookSourceUrl": "http://www.shencou.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "神凑轻小说",
+    "bookSourceGroup": "轻小说",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php,{\n\"charset\":\"gb2312\",\n\"method\":\"post\",\n\"body\":\"searchtype=articlename+selected&searchkey={{key}}&t_btnsearch=%CB%D1%CB%F7\"\n}",
+    "exploreUrl": "电击·文库::http://www.shencou.com/modules/article/articlelist.php?class=1&page={{page}}\n富士·见库::http://www.shencou.com/modules/article/articlelist.php?class=2&page={{page}}\n角川·文库::http://www.shencou.com/modules/article/articlelist.php?class=3&page={{page}}\nMFJ·文库::http://www.shencou.com/modules/article/articlelist.php?class=4&page={{page}}\nFAMI·通文::http://www.shencou.com/modules/article/articlelist.php?class=5&page={{page}}\nG A·文库::http://www.shencou.com/modules/article/articlelist.php?class=6&page={{page}}\nH J·文库::http://www.shencou.com/modules/article/articlelist.php?class=7&page={{page}}\n壹迅·文库::http://www.shencou.com/modules/article/articlelist.php?class=8&page={{page}}\n集英·文库::http://www.shencou.com/modules/article/articlelist.php?class=9&page={{page}}\n讲坛·社库::http://www.shencou.com/modules/article/articlelist.php?class=12&page={{page}}",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624350864131,
+    "ruleSearch": {
+        "bookList": "tag.tbody@tag.tr!0",
+        "name": "tag.td.0@tag.a@text",
+        "author": "tag.td.2@text",
+        "lastChapter": "tag.td.1@tag.a@text",
+        "bookUrl": "tag.td.0@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.grid@tag.tbody@tag.td@children",
+        "name": "tag.b@text",
+        "author": "tag.p.0@text## ·来自+\\S\\s{5}",
+        "kind": "tag.p.0@text##\\S\\s+来自 |",
+        "wordCount": "tag.p.1@text##\\S\\s+全文长度：|字",
+        "lastChapter": "tag.p.2@text##最新章节：",
+        "coverUrl": "tag.img@src",
+        "bookUrl": "tag.b@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.span@tag.a@text##小说",
+        "author": "id.content@tag.tbody@tag.tr.0@tag.tbody@tag.tr.2@tag.td.1@text##小说作者：",
+        "kind": "id.content@tag.tbody@tag.tr.0@tag.tbody@tag.tr.2@tag.td.0@text##出品文库：",
+        "wordCount": "id.content@tag.tbody@tag.tr.0@tag.tbody@tag.tr.2@tag.td.3@text##全文长度：|字",
+        "coverUrl": "id.content@tag.tbody@tag.tr.2@tag.tbody@tag.img@src",
+        "tocUrl": "tag.span@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.zjlist4@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "html##\\S\\s+<!--go-->|<!--over-->+\\S\\s{0,}"
+    }
 },
 {
   "bookSourceUrl": "www.shuquge.com",
