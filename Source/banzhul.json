@@ -13,10 +13,10 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1623314576675,
+    "lastUpdateTime": 1624344390232,
     "ruleSearch": {
         "bookList": "id.main@tag.ul@tag.li",
-        "name": "class.item-cover@tag.a@title",
+        "name": "class.item-cover@tag.a@title##《|》",
         "coverUrl": "class.item-cover@tag.img@src",
         "bookUrl": "class.item-cover@tag.a@href"
     },
