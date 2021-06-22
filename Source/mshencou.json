@@ -1,0 +1,43 @@
+[{
+    "bookSourceUrl": "http://m.shencou.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "神凑轻小说",
+    "bookSourceGroup": "轻小说,📱",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "http://m.shencou.com/wapse.php,{\n\"charset\": \"gbk\",\n\"method\":\"post\",\n\"body\":\"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1624344534833,
+    "ruleSearch": {
+        "bookList": "class.line",
+        "name": "class.blue@text",
+        "author": "tag.a.2@text",
+        "kind": "tag.a.0@text##\\[|\\]",
+        "bookUrl": "tag.a.1@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "class.block_txt2@tag.h2@text",
+        "author": "class.block_txt2@tag.a.2@text",
+        "kind": "class.block_txt2@tag.a.3@text",
+        "lastChapter": "class.block_txt2@tag.a.4@text",
+        "intro": "class.intro_info@text",
+        "coverUrl": "class.block_img2@tag.img@src",
+        "tocUrl": "class.margin_right@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html"
+    }
+}]
