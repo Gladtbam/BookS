@@ -13,7 +13,7 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624344390232,
+    "lastUpdateTime": 1624359975520,
     "ruleSearch": {
         "bookList": "id.main@tag.ul@tag.li",
         "name": "class.item-cover@tag.a@title##《|》",
@@ -40,7 +40,7 @@
         "chapterUrl": "tag.a@href"
     },
     "ruleContent": {
-        "content": "id.content@textNodes##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
+        "content": "id.content@textNodes",
         "nextContentUrl": "text.下一页@href"
     }
 }]
