@@ -18,8 +18,8 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE/Source
           cat *.json >> ALL.json
-          sed -i 's/\[//g' ALL.json
-          sed -i 's/\]//g' ALL.json
+          sed -i 's/^\[//g' ALL.json
+          sed -i 's/\]&//g' ALL.json
           sed -i '1i \[' ALL.json
           sed -i '$a \]' ALL.json
           sed -i 's/}{/},\n{/g' ALL.json
