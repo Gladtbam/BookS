@@ -41,8 +41,7 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://www.8kbook.com",
     "bookSourceType": "0",
     "bookSourceName": "八块小说网",
@@ -88,8 +87,7 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://www.amtxt.net/",
     "bookSourceType": "0",
     "bookSourceName": "暧昧电子书",
@@ -131,8 +129,7 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "https://www.banzhul.com/",
     "bookSourceType": "0",
     "bookSourceName": "第二版主网",
@@ -177,8 +174,7 @@
         "content": "id.content@textNodes##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
         "nextContentUrl": "text.下一页@href"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
     "bookSourceName": "芙蓉小说",
@@ -223,15 +219,14 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "www.kptxt.com",
     "bookSourceType": "0",
     "bookSourceName": "靠谱小说",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
-    "bookUrlPattern": "http://www.kptxt.com/.+A-Za-z/\\d*.html",
+    "bookUrlPattern": "http://www.kptxt.com/.+[A-Za-z]/\\d*.html",
     "header": "",
     "searchUrl": "http://www.kptxt.com/search.php?keyword={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
     "exploreUrl": "",
@@ -261,8 +256,7 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://m.shencou.com/",
     "bookSourceType": "0",
     "bookSourceName": "神凑轻小说",
@@ -282,7 +276,7 @@
         "bookList": "class.line",
         "name": "class.blue@text",
         "author": "tag.a.2@text",
-        "kind": "tag.a.0@text##\\|\\",
+        "kind": "tag.a.0@text##\\[|\\]",
         "bookUrl": "tag.a.1@href"
     },
     "ruleExplore": {},
@@ -304,8 +298,7 @@
     "ruleContent": {
         "content": "id.nr1@html"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://www.muxs.net/",
     "bookSourceType": "0",
     "bookSourceName": "木小说",
@@ -348,8 +341,7 @@
     "ruleContent": {
         "content": "class.content@textNodes"
     }
-},
-{
+}]{
   "bookSourceUrl": "www.qlsc2.com",
   "bookSourceType": "0",
   "bookSourceName": "麒麟书城",
@@ -394,8 +386,7 @@
   "ruleContent": {
       "content": "class.chapter@textNodes"
   }
-},
-{
+}[{
   "bookSourceUrl": "http://www.rstxt.com/",
   "bookSourceType": "0",
   "bookSourceName": "肉色电子书",
@@ -439,8 +430,7 @@
   "ruleContent": {
       "content": "class.content@textNodes"
   }
-},
-{
+}][{
     "bookSourceUrl": "http://www.shencou.com/",
     "bookSourceType": "0",
     "bookSourceName": "神凑轻小说",
@@ -466,9 +456,9 @@
     "ruleExplore": {
         "bookList": "class.grid@tag.tbody@tag.td@children",
         "name": "tag.b@text",
-        "author": "tag.p.0@text## ·来自+\\S\\s{5}",
-        "kind": "tag.p.0@text##\\S\\s+来自 |",
-        "wordCount": "tag.p.1@text##\\S\\s+全文长度：|字",
+        "author": "tag.p.0@text## ·来自+[\\S\\s]{5}",
+        "kind": "tag.p.0@text##[\\S\\s]+来自 |",
+        "wordCount": "tag.p.1@text##[\\S\\s]+全文长度：|字",
         "lastChapter": "tag.p.2@text##最新章节：",
         "coverUrl": "tag.img@src",
         "bookUrl": "tag.b@tag.a@href"
@@ -487,10 +477,9 @@
         "chapterUrl": "tag.a@href"
     },
     "ruleContent": {
-        "content": "html##\\S\\s+<!--go-->|<!--over-->+\\S\\s{0,}"
+        "content": "html##[\\S\\s]+<!--go-->|<!--over-->+[\\S\\s]{0,}"
     }
-},
-{
+}][{
   "bookSourceUrl": "www.shuquge.com",
   "bookSourceType": "0",
   "bookSourceName": "书趣阁",
@@ -534,8 +523,7 @@
   "ruleContent": {
       "content": "id.content@textNodes"
   }
-},
-{
+}][{
     "bookSourceUrl": "http://www.tzy2.com",
     "bookSourceType": "0",
     "bookSourceName": "太子爷小说",
@@ -580,10 +568,9 @@
     },
     "ruleContent": {
         "content": "class.chapter@textNodes##\\*.+\\*|\\｜|\\（\\）.+电子书.+\\n|\\（\\）",
-        "replaceRegex": "<js>\nm=;n=;\nfunction x(a,b){m.push(a);n.push(b)}\nx(/Gui头/gi,\"龟头\");\nx(/Jing液/gi,\"精液\");\nfor(i in n){result=result.replace(mi,ni)}\n</js>"
+        "replaceRegex": "<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)}\nx(/Gui头/gi,\"龟头\");\nx(/Jing液/gi,\"精液\");\nfor(i in n){result=result.replace(m[i],n[i])}\n</js>"
     }
-},
-{
+}][{
     "bookSourceUrl": "https://www.x33xs.com/",
     "bookSourceType": "0",
     "bookSourceName": "33小说网",
@@ -624,8 +611,7 @@
     "ruleContent": {
         "content": "id.content@textNodes"
     }
-},
-{
+}][{
     "bookSourceUrl": "http://www.yzwxs.org",
     "bookSourceType": "0",
     "bookSourceName": "御宅屋",
@@ -664,5 +650,5 @@
         "content": "id.content@textNodes",
         "replaceRegex": "##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com"
     }
-}
+}]
 ]
