@@ -2,7 +2,7 @@
 {
     "bookSourceUrl": "http://www.38xs.net/",
     "bookSourceType": "0",
-    "bookSourceName": "三八小说网",
+    "bookSourceName": "📒三八小说网",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -48,7 +48,7 @@
 {
     "bookSourceUrl": "http://www.86dushu.com/",
     "bookSourceType": "0",
-    "bookSourceName": "86读书",
+    "bookSourceName": "📒86读书",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -91,7 +91,7 @@
 {
     "bookSourceUrl": "http://www.8kbook.com",
     "bookSourceType": "0",
-    "bookSourceName": "八块小说网",
+    "bookSourceName": "📒八块小说网",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -191,7 +191,7 @@
 {
     "bookSourceUrl": "http://www.amtxt.net/",
     "bookSourceType": "0",
-    "bookSourceName": "暧昧电子书",
+    "bookSourceName": "📒暧昧电子书",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -234,7 +234,7 @@
 {
     "bookSourceUrl": "https://www.banzhul.com/",
     "bookSourceType": "0",
-    "bookSourceName": "第二版主网",
+    "bookSourceName": "📒第二版主网",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -280,7 +280,7 @@
 {
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
-    "bookSourceName": "芙蓉小说",
+    "bookSourceName": "📒芙蓉小说",
     "bookSourceGroup": "📒,耽美",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -324,9 +324,54 @@
     }
 },
 {
+    "bookSourceUrl": "http://www.jimixs.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "📒吉米小说",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php?keyword={{key}}&submit=,{\n\"charset\":\"gb2312\"\n}",
+    "exploreUrl": "浪漫言情::/yanqing/{{page}}.html\n都市生活::/dushi/{{page}}.html\n魔幻玄幻::/xuanhuan/{{page}}.html\n武侠修真::/wuxia/{{page}}.html\n穿越架空::/chuanyue/{{page}}.html\n历史军事::/lishi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬拟::/kongbu/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n耽美同人::/danmei/{{page}}.html\n文学经管::/wenxue/{{page}}.html\n激情辣文::/jiqing/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1625288087194,
+    "ruleSearch": {
+        "bookList": "class.list@tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text##电子书简介：\\{",
+        "coverUrl": "class.book@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "id.alist@class.alistbox",
+        "name": "class.title@tag.a@title",
+        "intro": "class.intro@text",
+        "coverUrl": "class.pic@tag.img@src",
+        "bookUrl": "class.title@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text##作者+.{0,}",
+        "kind": "class.txt_nav@tag.a.1@text",
+        "intro": "class.r_cons@text##[\\S\\s]{0,}简介：",
+        "coverUrl": "class.con_limg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@textNodes"
+    }
+},
+{
     "bookSourceUrl": "www.kptxt.com",
     "bookSourceType": "0",
-    "bookSourceName": "靠谱小说",
+    "bookSourceName": "📒靠谱小说",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -407,7 +452,7 @@
 {
     "bookSourceUrl": "http://www.muxs.net/",
     "bookSourceType": "0",
-    "bookSourceName": "木小说",
+    "bookSourceName": "📒木小说",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -451,7 +496,7 @@
 {
   "bookSourceUrl": "www.qlsc2.com",
   "bookSourceType": "0",
-  "bookSourceName": "麒麟书城",
+  "bookSourceName": "📒麒麟书城",
   "bookSourceGroup": "📒",
   "bookSourceComment": "",
   "loginUrl": "",
@@ -497,7 +542,7 @@
 {
   "bookSourceUrl": "http://www.rstxt.com/",
   "bookSourceType": "0",
-  "bookSourceName": "肉色电子书",
+  "bookSourceName": "📒肉色电子书",
   "bookSourceGroup": "📒",
   "bookSourceComment": "",
   "loginUrl": "",
@@ -637,7 +682,7 @@
 {
     "bookSourceUrl": "http://www.tzy2.com",
     "bookSourceType": "0",
-    "bookSourceName": "太子爷小说",
+    "bookSourceName": "📒太子爷小说",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
@@ -728,7 +773,7 @@
 {
     "bookSourceUrl": "http://www.yzwxs.org",
     "bookSourceType": "0",
-    "bookSourceName": "御宅屋",
+    "bookSourceName": "📒御宅屋",
     "bookSourceGroup": "📒",
     "bookSourceComment": "",
     "loginUrl": "",
