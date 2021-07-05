@@ -278,6 +278,62 @@
     }
 },
 {
+    "bookSourceUrl": "https://dushujiba.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "读书籍吧",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search/,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "玄幻魔法::/sort/1/{{page}}/\n武侠修真::/sort/2/{{page}}/\n都市言情::/sort/3/{{page}}/\n侦探推理::/sort/12/{{page}}/\n历史军事::/sort/4/{{page}}/\n游戏竞技::/sort/5/{{page}}/\n科幻灵异::/sort/6/{{page}}/\n女生耽美::/sort/7/{{page}}/\n灵异小说::/sort/8/{{page}}/\n次元小说::/sort/9/{{page}}/\n名著小说::/sort/11/{{page}}/\n其他小说::/sort/10/{{page}}/",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1625402228098,
+    "ruleSearch": {
+        "bookList": "class.flex@class.searchresult",
+        "name": "tag.h3@text",
+        "author": "tag.p.0@text##\\d+.[\\s\\S]{0,}",
+        "kind": "class.img_span@tag.span@text",
+        "wordCount": "class.s_gray@text",
+        "lastChapter": "tag.p.2@text",
+        "intro": "class.searchresult_p@text",
+        "coverUrl": "class.img_span@tag.img@data-original",
+        "bookUrl": "class.img_span@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.flex@tag.li",
+        "name": "tag.h2@text",
+        "author": "class.li_bottom@tag.i@text",
+        "kind": "class.img_span@span@text",
+        "wordCount": "class.orange@text",
+        "intro": "class.indent@text",
+        "coverUrl": "class.img_span@tag.img@data-original",
+        "bookUrl": "class.img_span@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.novel_info_title@tag.i@tag.a@text",
+        "kind": "class.novel_info_title@tag.p.0@tag.span.0@text",
+        "wordCount": "class.novel_info_title@tag.p.0@tag.span.1@text",
+        "lastChapter": "class.flex to100@tag.a@text",
+        "intro": "class.intro@text",
+        "coverUrl": "class.novel_info_main@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.ul_all_chapters@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@html",
+        "nextContentUrl": "text.下一页@href"
+    }
+},
+{
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
     "bookSourceName": "📒芙蓉小说",
