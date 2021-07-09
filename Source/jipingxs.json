@@ -1,0 +1,55 @@
+[{
+    "bookSourceUrl": "https://ziyuan.jipingxs.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "船说CMS",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search/,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "同人::/sort/1/{{page}}\n玄幻::/sort/2/{{page}}\n武侠::/sort/3/{{page}}\n都市::/sort/4/{{page}}\n军事::/sort/5/{{page}}\n科幻::/sort/6/{{page}}\n推理::/sort/7/{{page}}\n青春::/sort/8/{{page}}",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1625797610858,
+    "ruleSearch": {
+        "bookList": "class.flex@tag.li",
+        "name": "tag.h3@text",
+        "author": "tag.div.1@tag.p.0@text",
+        "kind": "class.img_span@tag.span@text",
+        "wordCount": "class.s_gray@text",
+        "lastChapter": "tag.div.1@tag.p.2@text",
+        "intro": "class.searchresult_p@text",
+        "coverUrl": "class.img_span@tag.img@data-original",
+        "bookUrl": "class.img_span@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.flex@tag.li",
+        "name": "tag.h2@text",
+        "author": "class.fa fa-user-circle-o@text",
+        "kind": "class.img_span@tag.span@text",
+        "wordCount": "class.orange@text",
+        "intro": "class.indent@text",
+        "coverUrl": "class.img_span@tag.img@data-original",
+        "bookUrl": "class.img_span@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.novel_info_title@tag.i@tag.a@text",
+        "kind": "class.novel_info_title@tag.p@tag.span.0@text",
+        "wordCount": "class.novel_info_title@tag.p@tag.span.1@text",
+        "lastChapter": "class.flex to100@tag.a@text",
+        "intro": "class.intro@tag.p.1@text",
+        "coverUrl": "class.novel_info_main@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.ul_all_chapters@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@html"
+    }
+}]
