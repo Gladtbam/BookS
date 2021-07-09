@@ -13,11 +13,11 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1625797610858,
+    "lastUpdateTime": 1625799130607,
     "ruleSearch": {
         "bookList": "class.flex@tag.li",
         "name": "tag.h3@text",
-        "author": "tag.div.1@tag.p.0@text",
+        "author": "tag.div.1@tag.p.0@text\\s.*",
         "kind": "class.img_span@tag.span@text",
         "wordCount": "class.s_gray@text",
         "lastChapter": "tag.div.1@tag.p.2@text",
