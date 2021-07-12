@@ -1,0 +1,45 @@
+[{
+    "bookSourceUrl": "http://www.rwsk.net/",
+    "bookSourceType": "0",
+    "bookSourceName": "📒人文书库",
+    "bookSourceGroup": "📒",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php?keyword={{key}}&submit=,{\n\"charset\":\"gb2312\"\n}",
+    "exploreUrl": "玄幻异能::/1/{{page}}.html\n武侠仙侠::/2/{{page}}.html\n都市言情::/3/{{page}}.html\n穿越架空::/4/{{page}}.html\n军事历史::/5/{{page}}.html\n科幻灵异::/6/{{page}}.html\n网游竞技::/7/{{page}}.html\n耽美同人::/8/{{page}}.html\n经管励志::/9/{{page}}.html\n文学名著::/10/{{page}}.html\n香艳激情::/11/{{page}}.html\n短篇辣文::/12/{{page}}.html",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626074744437,
+    "ruleSearch": {
+        "bookList": "class.list@tbody",
+        "name": "class.name@tag.a@text",
+        "intro": "class.intro@text##电子书简介：\\{",
+        "coverUrl": "class.cover@tag.img@src",
+        "bookUrl": "class.name@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "id.alist@class.alistbox",
+        "name": "class.title@tag.a@title",
+        "intro": "class.intro@text",
+        "coverUrl": "class.pic@tag.img@src",
+        "bookUrl": "class.title@tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "kind": "class.txt_nav@tag.a.1@text",
+        "intro": "class.r_cons@text",
+        "coverUrl": "class.con_limg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.list-item@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@textNodes"
+    }
+}]
