@@ -13,7 +13,7 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624609675521,
+    "lastUpdateTime": 1626078277735,
     "ruleSearch": {
         "bookList": "class.book",
         "name": "class.name@tag.a@text",
@@ -23,9 +23,9 @@
     },
     "ruleExplore": {
         "bookList": "class.rankcontent||id.sort_newbook@class.sort_list",
-        "name": "class.ranktitle@tag.a.0@text||class.title@text##《|》",
+        "name": "class.ranktitle@tag.a.0@text||class.title@tag.a@text##《|》",
         "author": "class.ranktitle@tag.a.1@text",
-        "kind": "class.tj@tag.label.3@text##分类：",
+        "kind": "class.tj@tag.label.3@tag.font@text",
         "intro": "class.rankdetailright@text||class.intro@text##简介：",
         "coverUrl": "class.rankdetailleft@tag.img@src||class.fm@tag.img@src",
         "bookUrl": "class.ranktitle@tag.a.0@href||class.title@tag.a@href"
