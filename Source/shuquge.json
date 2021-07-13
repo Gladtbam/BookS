@@ -1,5 +1,5 @@
 [{
-    "bookSourceUrl": "https://www.sizhicn.com/",
+    "bookSourceUrl": "https://www.shuquge.com/",
     "bookSourceType": "0",
     "bookSourceName": "书趣阁",
     "bookSourceGroup": "",
@@ -13,7 +13,7 @@
     "enabledExplore": false,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624360432007,
+    "lastUpdateTime": 1626154445301,
     "ruleSearch": {
         "bookList": "class.bookcase@class.bookbox",
         "name": "class.bookname@tag.a@text",
