@@ -1,0 +1,47 @@
+[{
+    "bookSourceUrl": "http://www.530p.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "3Z中文网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36\"\n}",
+    "searchUrl": "/s/{{key}},{\n\"charset\":\"gbk\"\n}",
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n最近更新::/p{{page}}.htm",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626158122866,
+    "ruleSearch": {
+        "bookList": "class.conter@tag.ul!0",
+        "name": "tag.li.0@text",
+        "author": "tag.li.2@text",
+        "lastChapter": "tag.li.1@text",
+        "bookUrl": "tag.li.0@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.conter@tag.ul!0",
+        "name": "tag.li.0@text",
+        "author": "tag.li.2@text",
+        "lastChapter": "tag.li.1@text",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.tna@text",
+        "author": "class.ffw@tag.td.2@text",
+        "kind": "class.ffw@tag.td.4@text",
+        "lastChapter": "class.ffw@tag.td.7@tag.a@text",
+        "intro": "class.ffw@tag.td.9@text##【内容简介】",
+        "coverUrl": "class.ffw@tag.td.0@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.conter@class.clc",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.cp_content@textNodes"
+    }
+}]
