@@ -46,6 +46,93 @@
     }
 },
 {
+    "bookSourceUrl": "http://www.530p.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "3Z中文网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.100 Safari/537.36\"\n}",
+    "searchUrl": "/s/{{key}},{\n\"charset\":\"gbk\"\n}",
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.htm\n言情::/yanqing/{{page}}.htm\n都市::/dushi/{{page}}.htm\n军事::/junshi/{{page}}.htm\n武侠::/wuxia/{{page}}.htm\n仙侠::/xianxia/{{page}}.htm\n历史::/lishi/{{page}}.htm\n最近更新::/p{{page}}.htm",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626158122866,
+    "ruleSearch": {
+        "bookList": "class.conter@tag.ul!0",
+        "name": "tag.li.0@text",
+        "author": "tag.li.2@text",
+        "lastChapter": "tag.li.1@text",
+        "bookUrl": "tag.li.0@tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "class.conter@tag.ul!0",
+        "name": "tag.li.0@text",
+        "author": "tag.li.2@text",
+        "lastChapter": "tag.li.1@text",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.tna@text",
+        "author": "class.ffw@tag.td.2@text",
+        "kind": "class.ffw@tag.td.4@text",
+        "lastChapter": "class.ffw@tag.td.7@tag.a@text",
+        "intro": "class.ffw@tag.td.9@text##【内容简介】",
+        "coverUrl": "class.ffw@tag.td.0@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.conter@class.clc",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.cp_content@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "http://www.5hzw.com",
+    "bookSourceType": "0",
+    "bookSourceName": "五湖中文网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php,{\n\"method\":\"post\",\n\"charset\":\"gbk\",\n\"body\":\"searchkey={{key}}&searchtype=articlename\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626154159117,
+    "ruleSearch": {
+        "bookList": "class.grid@id.nr",
+        "name": "class.odd.0@text",
+        "author": "class.odd.1@text",
+        "wordCount": "class.even.1@text##[kK]##000",
+        "lastChapter": "class.even.0@text",
+        "bookUrl": "class.odd.0@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "id.info@tag.p.0@text",
+        "intro": "id.intro@tag.p@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+},
+{
     "bookSourceUrl": "http://www.86dushu.com/",
     "bookSourceType": "0",
     "bookSourceName": "📒86读书",
@@ -381,6 +468,45 @@
     }
 },
 {
+    "bookSourceUrl": "https://www.fengwug.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "凤舞阁(笔趣阁)",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626159311296,
+    "ruleSearch": {
+        "bookList": "id.content@id.nr",
+        "name": "class.odd.0@text",
+        "author": "class.odd.1@text",
+        "wordCount": "class.even.1@text##[kK]##000",
+        "lastChapter": "class.even.0@text",
+        "bookUrl": "class.odd.0@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "id.info@tag.p.0@text",
+        "intro": "id.intro@tag.p@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+},
+{
     "bookSourceUrl": "http://www.frtxt.com/",
     "bookSourceType": "0",
     "bookSourceName": "📒芙蓉小说",
@@ -562,6 +688,47 @@
     },
     "ruleContent": {
         "content": "class.chapter@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "http://m.530p.com",
+    "bookSourceType": "0",
+    "bookSourceName": "📱3Z中文网",
+    "bookSourceGroup": "📱",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s/{{key}}",
+    "exploreUrl": "点击榜::/top/{{page}}/\n新更新::/p{{page}}.htm\n奇幻::/qihuan/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n言情::/yanqing/{{page}}/\n都市::/dushi/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 18,
+    "lastUpdateTime": 1626156338382,
+    "ruleSearch": {
+        "bookList": "class.list@tag.li",
+        "name": "tag.span@text",
+        "author": "@text##.*/",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "tag.li",
+        "name": "tag.span@text",
+        "author": "@text##.*/",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.n-title@text",
+        "intro": "class.n-chapter.0@text##简介："
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.n-chapter@textNodes"
     }
 },
 {
@@ -838,7 +1005,7 @@
     }
 },
 {
-    "bookSourceUrl": "https://www.sizhicn.com/",
+    "bookSourceUrl": "https://www.shuquge.com/",
     "bookSourceType": "0",
     "bookSourceName": "书趣阁",
     "bookSourceGroup": "",
@@ -852,7 +1019,7 @@
     "enabledExplore": false,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624360432007,
+    "lastUpdateTime": 1626154445301,
     "ruleSearch": {
         "bookList": "class.bookcase@class.bookbox",
         "name": "class.bookname@tag.a@text",
