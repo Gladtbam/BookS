@@ -1,0 +1,40 @@
+[{
+    "bookSourceUrl": "http://www.5hzw.com",
+    "bookSourceType": "0",
+    "bookSourceName": "五湖中文网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php,{\n\"method\":\"post\",\n\"charset\":\"gbk\",\n\"body\":\"searchkey={{key}}&searchtype=articlename\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626154159117,
+    "ruleSearch": {
+        "bookList": "class.grid@id.nr",
+        "name": "class.odd.0@text",
+        "author": "class.odd.1@text",
+        "wordCount": "class.even.1@text##[kK]##000",
+        "lastChapter": "class.even.0@text",
+        "bookUrl": "class.odd.0@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "id.info@tag.p.0@text",
+        "intro": "id.intro@tag.p@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+}]
