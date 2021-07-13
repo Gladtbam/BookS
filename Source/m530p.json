@@ -1,0 +1,41 @@
+[{
+    "bookSourceUrl": "http://m.530p.com",
+    "bookSourceType": "0",
+    "bookSourceName": "📱3Z中文网",
+    "bookSourceGroup": "📱",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s/{{key}}",
+    "exploreUrl": "点击榜::/top/{{page}}/\n新更新::/p{{page}}.htm\n奇幻::/qihuan/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n言情::/yanqing/{{page}}/\n都市::/dushi/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 18,
+    "lastUpdateTime": 1626156338382,
+    "ruleSearch": {
+        "bookList": "class.list@tag.li",
+        "name": "tag.span@text",
+        "author": "@text##.*/",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleExplore": {
+        "bookList": "tag.li",
+        "name": "tag.span@text",
+        "author": "@text##.*/",
+        "bookUrl": "tag.a@href"
+    },
+    "ruleBookInfo": {
+        "name": "class.n-title@text",
+        "intro": "class.n-chapter.0@text##简介："
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.n-chapter@textNodes"
+    }
+}]
