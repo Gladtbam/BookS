@@ -553,6 +553,49 @@
     }
 },
 {
+    "bookSourceUrl": "http://www.jiezhong.cc/",
+    "bookSourceType": "0",
+    "bookSourceName": "杰众文学",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 93,
+    "lastUpdateTime": 1626790051988,
+    "ruleSearch": {
+        "bookList": "class.grid@tag.tr!0",
+        "name": "tag.td.0@text",
+        "author": "tag.td.2@text",
+        "wordCount": "tag.td.3@text##[Kk]##000",
+        "lastChapter": "tag.td.1@text",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.p_author@tag.a@text",
+        "kind": "id.count@tag.span.0@text",
+        "wordCount": "id.count@tag.span.4@text##[Kk]##000",
+        "intro": "tag.p.1@text",
+        "coverUrl": "id.bookimg@tag.img@src",
+        "tocUrl": "text.目录列表@href"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+},
+{
     "bookSourceUrl": "http://www.jimixs.com/",
     "bookSourceType": "0",
     "bookSourceName": "📒吉米小说",
@@ -595,61 +638,6 @@
     },
     "ruleContent": {
         "content": "class.content@textNodes"
-    }
-},
-{
-    "bookSourceUrl": "https://ziyuan.jipingxs.com/",
-    "bookSourceType": "0",
-    "bookSourceName": "船说CMS",
-    "bookSourceGroup": "",
-    "bookSourceComment": "",
-    "loginUrl": "",
-    "bookUrlPattern": "",
-    "header": "",
-    "searchUrl": "/search/,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
-    "exploreUrl": "同人::/sort/1/{{page}}\n玄幻::/sort/2/{{page}}\n武侠::/sort/3/{{page}}\n都市::/sort/4/{{page}}\n军事::/sort/5/{{page}}\n科幻::/sort/6/{{page}}\n推理::/sort/7/{{page}}\n青春::/sort/8/{{page}}",
-    "enabled": true,
-    "enabledExplore": true,
-    "weight": 0,
-    "customOrder": 0,
-    "lastUpdateTime": 1625799130607,
-    "ruleSearch": {
-        "bookList": "class.flex@tag.li",
-        "name": "tag.h3@text",
-        "author": "tag.div.1@tag.p.0@text\\s.*",
-        "kind": "class.img_span@tag.span@text",
-        "wordCount": "class.s_gray@text",
-        "lastChapter": "tag.div.1@tag.p.2@text",
-        "intro": "class.searchresult_p@text",
-        "coverUrl": "class.img_span@tag.img@data-original",
-        "bookUrl": "class.img_span@tag.a@href"
-    },
-    "ruleExplore": {
-        "bookList": "class.flex@tag.li",
-        "name": "tag.h2@text",
-        "author": "class.fa fa-user-circle-o@text",
-        "kind": "class.img_span@tag.span@text",
-        "wordCount": "class.orange@text",
-        "intro": "class.indent@text",
-        "coverUrl": "class.img_span@tag.img@data-original",
-        "bookUrl": "class.img_span@tag.a@href"
-    },
-    "ruleBookInfo": {
-        "name": "tag.h1@text",
-        "author": "class.novel_info_title@tag.i@tag.a@text",
-        "kind": "class.novel_info_title@tag.p@tag.span.0@text",
-        "wordCount": "class.novel_info_title@tag.p@tag.span.1@text",
-        "lastChapter": "class.flex to100@tag.a@text",
-        "intro": "class.intro@tag.p.1@text",
-        "coverUrl": "class.novel_info_main@tag.img@src"
-    },
-    "ruleToc": {
-        "chapterList": "id.ul_all_chapters@tag.li",
-        "chapterName": "tag.a@text",
-        "chapterUrl": "tag.a@href"
-    },
-    "ruleContent": {
-        "content": "class.content@html"
     }
 },
 {
@@ -1088,6 +1076,49 @@
     },
     "ruleContent": {
         "content": "id.content@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "https://www.tsxsw.la/",
+    "bookSourceType": "0",
+    "bookSourceName": "吞噬小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 120,
+    "lastUpdateTime": 1626791232850,
+    "ruleSearch": {
+        "bookList": "class.banner@tag.ul",
+        "name": "class.s2@text",
+        "author": "class.s4@text",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "intro": "class.articleintro@text",
+        "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+)/##https://imgtsxsw.cdn.bcebos.com/files/article/image/$1/$2/$2s.jpg",
+        "bookUrl": "class.s2@tag.a@href##net##la"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.author@text",
+        "lastChapter": "class.p4@tag.a@text",
+        "intro": "class.p3@text",
+        "coverUrl": "class.l@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapterlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@p@textNodes"
     }
 },
 {
