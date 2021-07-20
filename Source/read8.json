@@ -1,0 +1,41 @@
+[{
+    "bookSourceUrl": "https://www.read8.net",
+    "bookSourceType": "0",
+    "bookSourceName": "无错小说网",
+    "bookSourceGroup": ",失效",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://www.read8.net/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n  }",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 360,
+    "lastUpdateTime": 1626782874740,
+    "ruleSearch": {
+        "bookList": "class.novelslist2@tag.li!0",
+        "name": "tag.a.0@text",
+        "author": "tag.a.1@text",
+        "lastChapter": "tag.a.2@text",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.a.0@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "lastChapter": "id.info@tag.a.-1@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@html##天才.*net"
+    }
+}]
