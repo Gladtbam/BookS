@@ -1,0 +1,44 @@
+[{
+    "bookSourceUrl": "https://sma.yueyouxs.com",
+    "bookSourceType": "0",
+    "bookSourceName": "神马小说",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s/1.html?keyword={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626786667947,
+    "ruleSearch": {
+        "bookList": "class.v-list-item",
+        "name": "class.v-title@text",
+        "author": "class.v-author@text",
+        "wordCount": "class.v-words@text",
+        "intro": "class.v-intro@text",
+        "coverUrl": "class.v-cover-img@src",
+        "bookUrl": "onclick##\\(|\\)|'|,|newWebView"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "class.face-info-title@text",
+        "author": "class.v-words.0@text##作者：",
+        "kind": "class.v-words.1@text##分类：",
+        "wordCount": "class.v-words.2@text##字数：",
+        "intro": "id.intro@text",
+        "coverUrl": "class.face-cover@tag.img@src",
+        "tocUrl": "class.sumchapter@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "//ul//li/a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "ruleContent": {
+        "content": "class.con@html"
+    }
+}]
