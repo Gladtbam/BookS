@@ -1,0 +1,44 @@
+[{
+    "bookSourceUrl": "https://www.xddxs.cc",
+    "bookSourceType": "0",
+    "bookSourceName": "新顶点小说",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s.php?ie=gbk&q={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 359,
+    "lastUpdateTime": 1626784968519,
+    "ruleSearch": {
+        "bookList": "class.so_list bookcase@class.bookbox",
+        "name": "class.bookname@tag.a@text",
+        "author": "class.author@text##作者：",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@tag.a@text",
+        "intro": "class.bookinfo@tag.p@text",
+        "coverUrl": "class.bookimg@img@src",
+        "bookUrl": "class.bookname@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "init": "id.maininfo",
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.p.0@text##作&nbsp;&nbsp;&nbsp;&nbsp;者：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text",
+        "intro": "id.intro@tag.p.0@text",
+        "coverUrl": "id.fmimg@img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.showtxt@html##　　天才一秒记住本站地址：www.xdingdian.com。新顶点小说手机版阅读网址：m.xdingdian.com"
+    }
+}]
