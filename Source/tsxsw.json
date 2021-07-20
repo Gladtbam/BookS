@@ -10,10 +10,10 @@
     "searchUrl": "/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
     "exploreUrl": "",
     "enabled": true,
-    "enabledExplore": true,
+    "enabledExplore": false,
     "weight": 0,
     "customOrder": 120,
-    "lastUpdateTime": 1626790932548,
+    "lastUpdateTime": 1626791232850,
     "ruleSearch": {
         "bookList": "class.banner@tag.ul",
         "name": "class.s2@text",
