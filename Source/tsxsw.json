@@ -1,0 +1,43 @@
+[{
+    "bookSourceUrl": "https://www.tsxsw.la/",
+    "bookSourceType": "0",
+    "bookSourceName": "吞噬小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": true,
+    "weight": 0,
+    "customOrder": 120,
+    "lastUpdateTime": 1626790932548,
+    "ruleSearch": {
+        "bookList": "class.banner@tag.ul",
+        "name": "class.s2@text",
+        "author": "class.s4@text",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "intro": "class.articleintro@text",
+        "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+)/##https://imgtsxsw.cdn.bcebos.com/files/article/image/$1/$2/$2s.jpg",
+        "bookUrl": "class.s2@tag.a@href##net##la"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.author@text",
+        "lastChapter": "class.p4@tag.a@text",
+        "intro": "class.p3@text",
+        "coverUrl": "class.l@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapterlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.content@p@textNodes"
+    }
+}]
