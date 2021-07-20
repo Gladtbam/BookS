@@ -865,6 +865,47 @@
   }
 },
 {
+    "bookSourceUrl": "https://www.read8.net",
+    "bookSourceType": "0",
+    "bookSourceName": "无错小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "https://www.read8.net/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n  }",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 360,
+    "lastUpdateTime": 1626782874740,
+    "ruleSearch": {
+        "bookList": "class.novelslist2@tag.li!0",
+        "name": "tag.a.0@text",
+        "author": "tag.a.1@text",
+        "lastChapter": "tag.a.2@text",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.a.0@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "lastChapter": "id.info@tag.a.-1@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@html##天才.*net"
+    }
+},
+{
   "bookSourceUrl": "http://www.rstxt.com/",
   "bookSourceType": "0",
   "bookSourceName": "📒肉色电子书",
@@ -1138,6 +1179,134 @@
     },
     "ruleContent": {
         "content": "id.content@textNodes"
+    }
+},
+{
+    "bookSourceUrl": "https://www.xddxs.cc",
+    "bookSourceType": "0",
+    "bookSourceName": "新顶点小说",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s.php?ie=gbk&q={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 359,
+    "lastUpdateTime": 1626784968519,
+    "ruleSearch": {
+        "bookList": "class.so_list bookcase@class.bookbox",
+        "name": "class.bookname@tag.a@text",
+        "author": "class.author@text##作者：",
+        "kind": "class.cat@text##分类：",
+        "lastChapter": "class.update@tag.a@text",
+        "intro": "class.bookinfo@tag.p@text",
+        "coverUrl": "class.bookimg@img@src",
+        "bookUrl": "class.bookname@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "init": "id.maininfo",
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.p.0@text##作&nbsp;&nbsp;&nbsp;&nbsp;者：",
+        "lastChapter": "id.info@tag.p.3@tag.a@text",
+        "intro": "id.intro@tag.p.0@text",
+        "coverUrl": "id.fmimg@img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.listmain@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "class.showtxt@html##　　天才一秒记住本站地址：www.xdingdian.com。新顶点小说手机版阅读网址：m.xdingdian.com"
+    }
+},
+{
+    "bookSourceUrl": "https://www.xiaoshuo530.com",
+    "bookSourceType": "0",
+    "bookSourceName": "小说书网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 149,
+    "lastUpdateTime": 1626784022899,
+    "ruleSearch": {
+        "bookList": "class.novelslist2@tag.li!0",
+        "name": "tag.span.1@tag.a@text",
+        "author": "tag.span.2@tag.a@text",
+        "lastChapter": "tag.span.3@tag.a@text",
+        "bookUrl": "tag.span.1@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.p.0@tag.a@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dl@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    }
+},
+{
+    "bookSourceUrl": "https://sma.yueyouxs.com",
+    "bookSourceType": "0",
+    "bookSourceName": "神马小说",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/s/1.html?keyword={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1626786667947,
+    "ruleSearch": {
+        "bookList": "class.v-list-item",
+        "name": "class.v-title@text",
+        "author": "class.v-author@text",
+        "wordCount": "class.v-words@text",
+        "intro": "class.v-intro@text",
+        "coverUrl": "class.v-cover-img@src",
+        "bookUrl": "onclick##\\(|\\)|'|,|newWebView"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "class.face-info-title@text",
+        "author": "class.v-words.0@text##作者：",
+        "kind": "class.v-words.1@text##分类：",
+        "wordCount": "class.v-words.2@text##字数：",
+        "intro": "id.intro@text",
+        "coverUrl": "class.face-cover@tag.img@src",
+        "tocUrl": "class.sumchapter@tag.a@href"
+    },
+    "ruleToc": {
+        "chapterList": "//ul//li/a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "ruleContent": {
+        "content": "class.con@html"
     }
 },
 {
