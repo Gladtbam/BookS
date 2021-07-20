@@ -1,0 +1,40 @@
+[{
+    "bookSourceUrl": "https://www.xiaoshuo530.com",
+    "bookSourceType": "0",
+    "bookSourceName": "小说书网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 149,
+    "lastUpdateTime": 1626784022899,
+    "ruleSearch": {
+        "bookList": "class.novelslist2@tag.li!0",
+        "name": "tag.span.1@tag.a@text",
+        "author": "tag.span.2@tag.a@text",
+        "lastChapter": "tag.span.3@tag.a@text",
+        "bookUrl": "tag.span.1@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1@text",
+        "author": "id.info@tag.p.0@tag.a@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dl@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    }
+}]
