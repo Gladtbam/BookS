@@ -1,0 +1,43 @@
+[{
+    "bookSourceUrl": "http://www.jiezhong.cc/",
+    "bookSourceType": "0",
+    "bookSourceName": "杰众文学",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 93,
+    "lastUpdateTime": 1626790051988,
+    "ruleSearch": {
+        "bookList": "class.grid@tag.tr!0",
+        "name": "tag.td.0@text",
+        "author": "tag.td.2@text",
+        "wordCount": "tag.td.3@text##[Kk]##000",
+        "lastChapter": "tag.td.1@text",
+        "bookUrl": "tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "class.p_author@tag.a@text",
+        "kind": "id.count@tag.span.0@text",
+        "wordCount": "id.count@tag.span.4@text##[Kk]##000",
+        "intro": "tag.p.1@text",
+        "coverUrl": "id.bookimg@tag.img@src",
+        "tocUrl": "text.目录列表@href"
+    },
+    "ruleToc": {
+        "chapterList": "id.readerlist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes"
+    }
+}]
