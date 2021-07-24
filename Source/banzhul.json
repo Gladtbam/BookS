@@ -13,7 +13,7 @@
     "enabledExplore": true,
     "weight": 0,
     "customOrder": 0,
-    "lastUpdateTime": 1624359975520,
+    "lastUpdateTime": 1627142883685,
     "ruleSearch": {
         "bookList": "id.main@tag.ul@tag.li",
         "name": "class.item-cover@tag.a@title##《|》",
@@ -40,7 +40,7 @@
         "chapterUrl": "tag.a@href"
     },
     "ruleContent": {
-        "content": "id.content@textNodes",
+        "content": "id.content@html##手机站全新改版升级地址：[a-zA-z]+://[^\\s]*",
         "nextContentUrl": "text.下一页@href"
     }
 }]
