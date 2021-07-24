@@ -1,0 +1,45 @@
+[{
+    "bookSourceUrl": "https://www.555x.org/",
+    "bookSourceType": "0",
+    "bookSourceName": "无限小说网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search/?searchkey={{key}}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1627140564161,
+    "ruleSearch": {
+        "bookList": "id.hotcontent@class.item",
+        "name": "tag.dt@tag.a@text",
+        "author": "class.btm@tag.a@text",
+        "wordCount": "tag.em.0@text",
+        "intro": "tag.dd@text",
+        "coverUrl": "class.image@tag.img@src",
+        "bookUrl": "tag.dt@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "id.info@tag.p.0@tag.a@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "wordCount": "id.info@tag.p.2@text##字数：",
+        "lastChapter": "id.info@tag.p.5@tag.a@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.a",
+        "chapterName": "text",
+        "chapterUrl": "href"
+    },
+    "ruleContent": {
+        "content": "id.booktxt@html##本章未完，点击下一页继续阅读。",
+        "nextContentUrl": "text.下一页@href"
+    }
+}]
