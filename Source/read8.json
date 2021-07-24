@@ -1,5 +1,5 @@
 [{
-    "bookSourceUrl": "https://www.read8.net",
+    "bookSourceUrl": "http://www.xread8.com/",
     "bookSourceType": "0",
     "bookSourceName": "无错小说网",
     "bookSourceGroup": "",
@@ -7,13 +7,13 @@
     "loginUrl": "",
     "bookUrlPattern": "",
     "header": "",
-    "searchUrl": "https://www.read8.net/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n  }",
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n  }",
     "exploreUrl": "",
     "enabled": true,
     "enabledExplore": false,
     "weight": 0,
     "customOrder": 360,
-    "lastUpdateTime": 1626782874740,
+    "lastUpdateTime": 1627139127457,
     "ruleSearch": {
         "bookList": "class.novelslist2@tag.li!0",
         "name": "tag.a.0@text",
