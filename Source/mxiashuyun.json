@@ -1,0 +1,45 @@
+[{
+    "bookSourceUrl": "https://m.xiashuyun.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "📱下书网",
+    "bookSourceGroup": "📱",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "bookUrlPattern": "",
+    "header": "",
+    "searchUrl": "/search.html?searchkey={{key}}&searchtype=all",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1628162975629,
+    "ruleSearch": {
+        "bookList": "class.book_list@tag.li && class.bookcover",
+        "name": "tag.h1@text || class.book_title@text",
+        "author": "tag.p.0@tag.a@text || tag.p.1@text##[\\s\\S]{0,}：",
+        "kind": "tag.p.1@text##分类：|作者：[\\s\\S]{0,}",
+        "intro": "class.intro@text",
+        "coverUrl": "class.pic@tag.img@src || tag.img@data-original",
+        "bookUrl": "class.pic@tag.a@href || tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "tag.h1@text",
+        "author": "tag.p.0@tag.a@text",
+        "kind": "tag.p.1@text##分类：",
+        "intro": "class.con@text",
+        "coverUrl": "class.pic@tag.img@src",
+        "tocUrl": "text.查看目录@href"
+    },
+    "ruleToc": {
+        "chapterList": "class.cataloglist@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "ruleContent": {
+        "content": "class.content@class.articlecon font-normal@html##本章未完，请点击下一页继续阅读！",
+        "nextContentUrl": "class.articlebtn@text.下一页@href"
+    }
+}]
