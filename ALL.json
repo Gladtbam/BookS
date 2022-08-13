@@ -511,7 +511,8 @@
         "content": "class.content@html",
         "nextContentUrl": "text.下一页@href"
     }
-}]{
+},
+{
     "bookSourceUrl": "https://www.feiszw.com/",
     "bookSourceType": "0",
     "bookSourceName": "速飞中文网",
