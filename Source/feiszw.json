@@ -1,4 +1,4 @@
-{
+[{
     "bookSourceUrl": "https://www.feiszw.com/",
     "bookSourceType": "0",
     "bookSourceName": "速飞中文网",
@@ -44,4 +44,4 @@
     "ruleContent": {
         "content": "id.content@html##飞速中文.com 中文域名一键直达|最快更新无错小说阅读[\\W\\w]{0,}"
     }
-}
+}]
