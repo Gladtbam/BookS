@@ -1,0 +1,47 @@
+{
+    "bookSourceUrl": "https://www.feiszw.com/",
+    "bookSourceType": "0",
+    "bookSourceName": "速飞中文网",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.81 Safari/537.36 Edg/104.0.1293.47\"\n}",
+    "bookUrlPattern": "",
+    "searchUrl": "https://www.feiszw.com/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\"charset\":\"gb2312\"}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": -88951457,
+    "lastUpdateTime": 1660398734321,
+    "ruleSearch": {
+        "bookList": "class.listbox@class.book",
+        "name": "id.CListTitle@tag.a.0@text",
+        "author": "id.CListTitle@text##[\\W\\w]{0,}\\[|\\|[\\W\\w]{0,}",
+        "kind": "id.CListTitle@tag.a.1@text&&id.CListTitle@tag.a.2@text",
+        "lastChapter": "id.CListTitle@tag.a.3@text&&",
+        "intro": "id.CListText@text",
+        "bookUrl": "id.CListTitle@tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "class.info@tag.p@tag.a@text",
+        "author": "class.info@tag.p.0@tag.span@text##文 / ",
+        "wordCount": "class.info@tag.p.1@text##[\\W\\w]{0,}总字数：| 总推荐[\\W\\w]{0,}",
+        "lastChapter": "class.intro@tag.a@text",
+        "intro": "class.intro@text##【作品简介】|飞速中文网[\\W\\w]{0,}",
+        "coverUrl": "class.bookimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapterlist@class.clearfix@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "updateTime": "tag.a@title"
+    },
+    "ruleContent": {
+        "content": "id.content@html##飞速中文.com 中文域名一键直达|最快更新无错小说阅读[\\W\\w]{0,}"
+    }
+}
