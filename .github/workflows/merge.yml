@@ -3,10 +3,6 @@ name: Merge
 on:
   workflow_dispatch:
   push:
-    branches:
-      - main
-    paths:
-      - 'Source'
     
 jobs:
   Merge_book:
