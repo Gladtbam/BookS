@@ -1,0 +1,45 @@
+[{
+    "bookSourceUrl": "http://www.00kxs.com",
+    "bookSourceType": "0",
+    "bookSourceName": "零零看书",
+    "bookSourceGroup": "",
+    "bookSourceComment": "",
+    "loginUrl": "",
+    "loginUi": "",
+    "loginCheckJs": "",
+    "concurrentRate": "",
+    "header": "",
+    "bookUrlPattern": "",
+    "searchUrl": "/search.php,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\"\n}",
+    "exploreUrl": "",
+    "enabled": true,
+    "enabledExplore": false,
+    "weight": 0,
+    "customOrder": 0,
+    "lastUpdateTime": 1660823055321,
+    "ruleSearch": {
+        "bookList": "class.novelslist@tag.ul@tag.li!0",
+        "name": "class.s2@text",
+        "author": "class.s4!1:2@text",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "bookUrl": "class.s2@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleBookInfo": {
+        "name": "id.info@h1@text",
+        "author": "id.info@tag.p.0@text",
+        "kind": "class.con_top@tag.a.0@ext",
+        "lastChapter": "id.info@tag.p.3@text",
+        "intro": "id.intro@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "ruleContent": {
+        "content": "id.content@tag.p@html"
+    }
+}]
