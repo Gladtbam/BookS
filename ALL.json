@@ -409,6 +409,48 @@
     }
 },
 {
+    "bookSourceComment": "",
+    "bookSourceName": "百盟书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.baimengshu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664278080360,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "class.btitle@tag.h1",
+        "author": "class.btitle@tag.i.0@text##作者：",
+        "kind": "class.btitle@tag.i.2@text##类别：",
+        "intro": "class.intro@text##小说介绍：",
+        "lastChapter": "class.fl@tag.a@text",
+        "coverUrl": "class.pic@tag.img@src"
+    },
+    "ruleContent": {
+        "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "tag.tbody@tag.tr!0",
+        "bookUrl": "tag.td.1@tag.a@href",
+        "kind": "tag.td.0@text##\\[|\\]",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.tbody@tag.tr@class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+},
+{
     "bookSourceUrl": "https://www.banzhul.com/",
     "bookSourceType": "0",
     "bookSourceName": "📒第二版主网",
@@ -814,6 +856,48 @@
     "ruleContent": {
         "content": "class.chapter@textNodes"
     }
+},
+{
+    "bookSourceComment": "",
+    "bookSourceName": "零点看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lingdiankanshu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664278818073,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1",
+        "author": "id.info@tag.p.0@text##作    者：",
+        "kind": "class.con_top@tag.a.1@text",
+        "intro": "id.intro@text",
+        "lastChapter": "id.info@tag.p.3@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"gbk\"\n}",
+    "weight": 0
 },
 {
     "bookSourceUrl": "http://m.530p.com",
@@ -1261,6 +1345,84 @@
     }
 },
 {
+    "bookSourceComment": "",
+    "bookSourceName": "思路客(siluke)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.siluke.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664277106889,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.title@tag.h1",
+        "author": "id.details@text## |\\|\\|+[\\W\\w]{0,}",
+        "kind": "id.bread@tag.a.1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##【告知书友，时代在变化，免费站点难以长存，手机app多书源站点切换看书大势所趋，站长给你推荐的这个咪咪阅读app，听书音色多、换源、找书都好使！】"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist@tag.ul@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+},
+{
+    "bookSourceComment": "",
+    "bookSourceName": "思路客",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.slkslk.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664276728653,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.title@tag.h1",
+        "author": "id.details@text## |\\|\\|+[\\W\\w]{0,}",
+        "kind": "id.bread@tag.a.1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@html##【告知书友，时代在变化，免费站点难以长存，手机app多书源站点切换看书大势所趋，站长给你推荐的这个咪咪阅读app，听书音色多、换源、找书都好使！】"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist@tag.ul@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+},
+{
     "bookSourceUrl": "https://www.tsxsw.la/",
     "bookSourceType": "0",
     "bookSourceName": "吞噬小说网",
@@ -1477,6 +1639,132 @@
         "content": "id.content@textNodes",
         "nextContentUrl": "text.下一页@href"
     }
+},
+{
+    "bookSourceComment": "",
+    "bookSourceName": "小书亭(xiaoshutingapp.com)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiaoshutingapp.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664282551307,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "class.btitle@tag.i.0@text##作者：",
+        "coverUrl": "class.pic@tag.img@src",
+        "intro": "class.intro@text##小说介绍：",
+        "kind": "class.btitle@tag.i.2@text##类别：",
+        "lastChapter": "class.fl@tag.a@text",
+        "name": "class.btitle@tag.h1"
+    },
+    "ruleContent": {
+        "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "tag.tbody@tag.tr!0",
+        "bookUrl": "tag.td.1@tag.a@href",
+        "kind": "tag.td.0@text##\\[|\\]",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.tbody@tag.tr@class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+},
+{
+    "bookSourceComment": "不会java，没有封面",
+    "bookSourceName": "小书亭(xiaoshuting.cc)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuting.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664280719529,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.title@tag.h1",
+        "author": "class.author@text",
+        "kind": "class.crumbleft@tag.a.1@text",
+        "intro": "",
+        "lastChapter": "class.book@tag.dd.0@text",
+        "coverUrl": ""
+    },
+    "ruleContent": {
+        "content": "class.Text@html##热门推荐： [\\u4e00-\\u9fa5]{0,}\\n|[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\\.?"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "id.bookcase_list@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "kind": "",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+},
+{
+    "bookSourceComment": "",
+    "bookSourceName": "小书亭(xiaoshuting.org)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuting.org",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664281592042,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "lastChapter": "id.info@tag.p.3@text",
+        "name": "id.info@tag.h1"
+    },
+    "ruleContent": {
+        "content": "id.content@html##【告知书友，时代在变化，免费站点难以长存，手机app多书源站点切换看书大势所趋，站长给你推荐的这个咪咪阅读app，听书音色多、换源、找书都好使！】"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.chapter-list@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
 },
 {
     "bookSourceUrl": "https://sma.yueyouxs.com",
