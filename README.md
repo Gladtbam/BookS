@@ -16,6 +16,10 @@
 ```bash
     https://cdn.jsdelivr.net/gh/Gladtbam/BookS/ALL.json
 ```
+```bash
+    #自建反代
+    https://git.gladbp.tk/Gladtbam/BookS/raw/main/ALL.json
+```
 
 替换净化:
 ```bash 
