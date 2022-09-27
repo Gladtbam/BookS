@@ -1,0 +1,42 @@
+[{
+    "bookSourceComment": "",
+    "bookSourceName": "小书亭(xiaoshutingapp.com)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiaoshutingapp.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664282551307,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "class.btitle@tag.i.0@text##作者：",
+        "coverUrl": "class.pic@tag.img@src",
+        "intro": "class.intro@text##小说介绍：",
+        "kind": "class.btitle@tag.i.2@text##类别：",
+        "lastChapter": "class.fl@tag.a@text",
+        "name": "class.btitle@tag.h1"
+    },
+    "ruleContent": {
+        "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "tag.tbody@tag.tr!0",
+        "bookUrl": "tag.td.1@tag.a@href",
+        "kind": "tag.td.0@text##\\[|\\]",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.tbody@tag.tr@class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+}]

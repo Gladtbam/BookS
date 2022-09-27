@@ -1,0 +1,42 @@
+[{
+    "bookSourceComment": "",
+    "bookSourceName": "零点看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lingdiankanshu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664278818073,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.info@tag.h1",
+        "author": "id.info@tag.p.0@text##作    者：",
+        "kind": "class.con_top@tag.a.1@text",
+        "intro": "id.intro@text",
+        "lastChapter": "id.info@tag.p.3@text",
+        "coverUrl": "id.fmimg@tag.img@src"
+    },
+    "ruleContent": {
+        "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.novelslist2@tag.li!0",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+}]

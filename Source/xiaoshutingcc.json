@@ -1,0 +1,42 @@
+[{
+    "bookSourceComment": "不会java，没有封面",
+    "bookSourceName": "小书亭(xiaoshuting.cc)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuting.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664280719529,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "id.title@tag.h1",
+        "author": "class.author@text",
+        "kind": "class.crumbleft@tag.a.1@text",
+        "intro": "",
+        "lastChapter": "class.book@tag.dd.0@text",
+        "coverUrl": ""
+    },
+    "ruleContent": {
+        "content": "class.Text@html##热门推荐： [\\u4e00-\\u9fa5]{0,}\\n|[a-zA-Z0-9][-a-zA-Z0-9]{0,62}(\\.[a-zA-Z0-9][-a-zA-Z0-9]{0,62})+\\.?"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.2@text",
+        "bookList": "id.bookcase_list@tag.tr",
+        "bookUrl": "tag.td.0@tag.a@href",
+        "kind": "",
+        "lastChapter": "tag.td.1@text",
+        "name": "tag.td.0@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.book@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+}]

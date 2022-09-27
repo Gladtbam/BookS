@@ -1,0 +1,42 @@
+[{
+    "bookSourceComment": "",
+    "bookSourceName": "小书亭(xiaoshuting.org)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaoshuting.org",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664281592042,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text##作    者：",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "kind": "class.con_top@tag.a.1@text",
+        "lastChapter": "id.info@tag.p.3@text",
+        "name": "id.info@tag.h1"
+    },
+    "ruleContent": {
+        "content": "id.content@html##【告知书友，时代在变化，免费站点难以长存，手机app多书源站点切换看书大势所趋，站长给你推荐的这个咪咪阅读app，听书音色多、换源、找书都好使！】"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "class.s4@text",
+        "bookList": "class.chapter-list@tag.li",
+        "bookUrl": "class.s2@tag.a@href",
+        "kind": "class.s1@text##\\[|\\]",
+        "lastChapter": "class.s3@text",
+        "name": "class.s2@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+}]

@@ -1,0 +1,42 @@
+[{
+    "bookSourceComment": "",
+    "bookSourceName": "百盟书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.baimengshu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1664278080360,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "class.btitle@tag.h1",
+        "author": "class.btitle@tag.i.0@text##作者：",
+        "kind": "class.btitle@tag.i.2@text##类别：",
+        "intro": "class.intro@text##小说介绍：",
+        "lastChapter": "class.fl@tag.a@text",
+        "coverUrl": "class.pic@tag.img@src"
+    },
+    "ruleContent": {
+        "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.td.3@text",
+        "bookList": "tag.tbody@tag.tr!0",
+        "bookUrl": "tag.td.1@tag.a@href",
+        "kind": "tag.td.0@text##\\[|\\]",
+        "lastChapter": "tag.td.2@text",
+        "name": "tag.td.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "tag.tbody@tag.tr@class.L",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\":\"post\",\n\"body\":\"keyword={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+}]
