@@ -984,6 +984,46 @@
     }
 },
 {
+    "bookSourceComment": "",
+    "bookSourceName": "暮秋夜",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.muqiuye.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "enabledReview": true,
+    "lastUpdateTime": 1667031464535,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "id.info@tag.p.0@text",
+        "coverUrl": "id.fmimg@tag.img@src",
+        "intro": "id.intro@text",
+        "lastChapter": "id.info@tag.p.3@tag.a@text",
+        "name": "tag.h1@text"
+    },
+    "ruleContent": {
+        "content": "id.content@textNodes",
+        "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "bookList": "class.item-cover",
+        "bookUrl": "tag.a@href",
+        "coverUrl": "tag.img@src",
+        "intro": "",
+        "name": "tag.h3@text"
+    },
+    "ruleToc": {
+        "chapterList": "id.list@tag.dd",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/home/search,{\n\"method\":\"post\",\n\"body\":\"action=search&q={{key}}\",\n\"charset\":\"utf-8\"\n}",
+    "weight": 0
+}
+{
     "bookSourceUrl": "http://www.muxs.net/",
     "bookSourceType": "0",
     "bookSourceName": "📒木小说",
