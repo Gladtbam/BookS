@@ -6,8 +6,8 @@
     "customOrder": 0,
     "enabled": true,
     "enabledCookieJar": true,
-    "enabledExplore": true,
-    "enabledReview": true,
+    "enabledExplore": false,
+    "enabledReview": false,
     "lastUpdateTime": 1667031464535,
     "respondTime": 180000,
     "ruleBookInfo": {
