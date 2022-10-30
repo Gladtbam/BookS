@@ -1113,6 +1113,56 @@
     }
 },
 {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📒,📱",
+    "bookSourceName": "📒御宅屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yzwxs.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "藏经阁::/sort/5_{{page}}/\n其它小说::/sort/7_{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1667137231603,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "author": "class.block_txt2@tag.a.1@text",
+        "coverUrl": "class.block_img2@tag.img@src",
+        "intro": "class.intro_info@text",
+        "kind": "class.block_txt2@tag.a.2@text",
+        "lastChapter": "class.block_txt2@tag.a.5@text",
+        "name": "tag.h2@text"
+    },
+    "ruleContent": {
+        "content": "id.nr@all##\\(第[0-9/]{3,5}页\\)（本章未完，请点击下一页继续阅读）|《据说天才只需一秒就能记住,发布地址:kanqita.com》",
+        "nextContentUrl": "text.下一页@href",
+        "replaceRegex": "##收藏以备不时之需！！！|本站随时可能失效记住:kanqita.com",
+        "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "author": "tag.a.2@text",
+        "bookList": "class.cover@class.line",
+        "bookUrl": "tag.a.1@href",
+        "kind": "tag.a.0@text",
+        "lastChapter": "",
+        "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@tag.li",
+        "chapterName": "tag.a@text",
+        "chapterUrl": "tag.a@href",
+        "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"post\",\n\"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+}
+{
   "bookSourceUrl": "www.qlsc2.com",
   "bookSourceType": "0",
   "bookSourceName": "📒麒麟书城",
