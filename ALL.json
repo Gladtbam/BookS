@@ -313,59 +313,6 @@
     }
 },
 {
-    "bookSourceUrl": "https://www.9txs.org",
-    "bookSourceType": "0",
-    "bookSourceName": "九桃小说网",
-    "bookSourceGroup": "",
-    "bookSourceComment": "",
-    "loginUrl": "",
-    "bookUrlPattern": "",
-    "header": "",
-    "searchUrl": "https://so.9txs.org/www/,{\n\"method\":\"post\",\n\"body\":\"searchkey={{key}}\"\n}",
-    "exploreUrl": "玄幻奇幻::/sort/xuanhuan.html\n武侠修真::/sort/wuxia.html\n都市生活::/sort/dushi.html\n历史军事::/sort/lishi.html\n游戏竞技::/sort/youxi.html\n科幻未来::/sort/kehuan.html\n悬疑灵异::/sort/xuanyi.html\n二次元::/sort/erciyuan.html\n经典短篇::/sort/jingdian.html\n古代言情::/sort/gudai.html\n现代言情::/sort/xiandai.html\n幻想奇缘::/sort/huanxiang.html\n浪漫青春::/sort/qingchun.html\n网络情缘::/sort/wangluo.html\n科幻空间::/sort/kongjian.html\n恐怖灵异::/sort/lingyi.html\nN次元::/sort/tongren.html\n言情美文::/sort/yanqing.html\n其他类型::/sort/qita.html",
-    "enabled": true,
-    "enabledExplore": true,
-    "weight": 0,
-    "customOrder": 0,
-    "lastUpdateTime": 1624364744590,
-    "ruleSearch": {
-        "bookList": "class.library@tag.li",
-        "name": "class.bookname@text",
-        "author": "class.author@text",
-        "kind": "tag.p.0@tag.a.1@text",
-        "wordCount": "tag.p.0@text##[^\\d万字]",
-        "lastChapter": "class.chapter@text##最新章节：",
-        "intro": "class.intro@text",
-        "coverUrl": "class.bookimg@tag.img@src",
-        "bookUrl": "class.bookname@href"
-    },
-    "ruleExplore": {
-        "bookList": "tag.tbody@tag.tr",
-        "name": "tag.td.0@tag.a@text",
-        "author": "tag.td.2@tag.a@text",
-        "lastChapter": "tag.td.1@tag.a@text",
-        "bookUrl": "tag.td.0@tag.a@href"
-    },
-    "ruleBookInfo": {
-        "name": "tag.h1@text",
-        "author": "tag.p.0@tag.a.0@text",
-        "kind": "tag.p.0@tag.a.1@text",
-        "wordCount": "tag.p.0@text##[^\\d万字]",
-        "lastChapter": "tag.p.3@tag.a@text",
-        "intro": "class.intro.0@text",
-        "coverUrl": "class.detail@tag.img@src",
-        "tocUrl": "class.more@href"
-    },
-    "ruleToc": {
-        "chapterList": "class.read@tag.dd",
-        "chapterName": "tag.a@text",
-        "chapterUrl": "tag.a@href"
-    },
-    "ruleContent": {
-        "content": "id.content@tag.p!0:-1@text"
-    }
-},
-{
     "bookSourceUrl": "http://www.amtxt.net/",
     "bookSourceType": "0",
     "bookSourceName": "📒暧昧电子书",
