@@ -16,18 +16,3 @@
 ```bash
     https://cdn.jsdelivr.net/gh/Gladtbam/BookS/ALL.json
 ```
-```bash
-    #自建反代
-    https://git.gladbp.tk/Gladtbam/BookS/raw/main/ALL.json
-```
-
-替换净化:
-```bash 
-    https://github.com/Gladtbam/BookS/raw/main/ReplaceRule.json
-```
-```bash
-    https://cdn.jsdelivr.net/gh/Gladtbam/BookS/ReplaceRule.json
-```
-
-***如果jsdelivr未刷新缓存，[点此强制刷新](https://purge.jsdelivr.net/gh/Gladtbam/BookS/ALL.json)（一般不用点）***
-  
