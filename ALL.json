@@ -928,7 +928,48 @@
     "ruleContent": {
         "content": "id.nr1@html"
     }
-},
+}]{
+    "bookSourceName": "木瓜小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mugua2.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "enabledReview": false,
+    "exploreUrl": "[{\"title\":\"榜单\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"最近更新\",\"url\":\"/top/genxin/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"热门排行\",\"url\":\"/top/renmen/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"收藏排行\",\"url\":\"/top/fav/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"点赞排行\",\"url\":\"/top/zan/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"全本小说\",\"url\":\"/top/quanben/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新入库\",\"url\":\"/top/zuixin/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"最新更新\",\"url\":\"/top/update/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"分类\",\"url\":\"\",\"style\":{\"layout_flexBasisPercent\":1,\"layout_flexGrow\":1}},\n{\"title\":\"玄幻奇幻\",\"url\":\"/dir1/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"武侠仙侠\",\"url\":\"/dir4/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"都市言情\",\"url\":\"/dir8/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"穿越历史\",\"url\":\"/dir15/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"耽美同人\",\"url\":\"/dir18/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"恐怖悬疑\",\"url\":\"/dir26/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"网络小说\",\"url\":\"/dir30/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}},\n{\"title\":\"短篇小说\",\"url\":\"/dir31/{{page}}.html\",\"style\":{\"layout_flexBasisPercent\":0.25,\"layout_flexGrow\":1}}]",
+    "lastUpdateTime": 1673353740164,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "class.bookTitle@text##/[\\W\\w]{0,}",
+        "author": "class.bookTitle@class.red@text",
+        "kind": "class.breadcrumb@li.1@text",
+        "intro": "id.bookIntro@text",
+        "coverUrl": "class.col-md-2@img@src"
+    },
+    "ruleContent": {
+        "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {
+        "bookList": "",
+        "name": ""
+    },
+    "ruleReview": {},
+    "ruleSearch": {
+        "bookList": "class.book-coverlist",
+        "bookUrl": "class.col-md-5@a@href",
+        "coverUrl": "class.col-md-5@img@src",
+        "name": "h4@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.panel-chapterlist@dd",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "searchUrl": "/book/search?keyword={{key}}",
+    "weight": 0,
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:108.0) Gecko/20100101 Firefox/108.0\"}"
+}
 {
     "bookSourceComment": "",
     "bookSourceName": "暮秋夜",
