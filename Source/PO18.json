@@ -1,0 +1,41 @@
+[{
+    "bookSourceComment": "https://www.po-18.com/\npo18de@gmail.com",
+    "bookSourceName": "PO18",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.po18n.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "enabledReview": false,
+    "lastUpdateTime": 1675429822489,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "class.h_nav_items@li.1@text",
+        "author": "class.article_info_td@div.0@h2@text",
+        "kind": "class.article_info_td@div.1@a@text || class.h_nav_items@li.0@text",
+        "lastChapter": "class.article_info_td@div.2@a@text",
+        "wordCount": "class.article_info_td.1@div.0@text##总字数：",
+        "intro": "pre@text",
+        "tocUrl": "class.chapterList@li.-1@a@href"
+    },
+    "ruleContent": {
+        "content": "id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleReview": {},
+    "ruleSearch": {
+        "bookList": "class.common-bookele",
+        "name": "a@text",
+        "author": "p.0@strong@text",
+        "kind": "class.lastupdate@text##栏目：",
+        "bookUrl": "a@href"
+    },
+    "ruleToc": {
+        "chapterList": "li",
+        "chapterName": "a@text",
+        "chapterUrl": "a@href"
+    },
+    "weight": 0,
+    "searchUrl": "/s.php,{\n\"method\":\"post\";\n\"body\":\"type=articlename&s={{key}}\";\n\"charset\":\"utf-8\"}"
+}]
