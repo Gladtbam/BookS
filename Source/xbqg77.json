@@ -1,0 +1,39 @@
+{
+    "bookSourceName": "新笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xbqg77.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": false,
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Android 14; Mobile; rv:138.0) Gecko/138.0 Firefox/138.0\"}",
+    "lastUpdateTime": 1745749421590,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+        "name": "class.detail@class.title@text",
+        "author": "class.info@class.zuthor@text##作者：",
+        "kind": "class.info@class.state@text##状态：",
+        "lastChapter": "class.info@class.upcont@a@title",
+        "intro": "class.des@class.text@text",
+        "coverUrl": "class.cover@img@src"
+    },
+    "ruleContent": {
+        "content": "id.article@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+        "checkKeyWord": "择日飞升",
+        "bookList": "class.card",
+        "name": "class.title@text",
+        "bookUrl": "class.card@a.0@href",
+        "author": "class.author@text",
+        "intro": "class.des@text"
+    },
+    "ruleToc": {
+        "chapterList": "class.chapter@li",
+        "chapterName": "a@title",
+        "chapterUrl": "a@href"
+    },
+    "weight": 0,
+    "searchUrl": "/search?keyword={{key}}"
+}
